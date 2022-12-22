@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     color: rgb(25, 25, 25);
     font-family: 'Nunito Sans', sans-serif;
-    background: linear-gradient(180deg, rgb(255, 255, 255) 20%, rgba(205, 219, 252, 0.504) 40%) 
+    background: linear-gradient(180deg, rgb(255, 255, 255) 15%, rgba(212, 222, 248, 0.586) 35%) 
 
     
 }
@@ -4828,7 +4828,7 @@ a img {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #302ad9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -5120,7 +5120,7 @@ a img {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #e45d23, #0448c7);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #216eff, #2d38cf);
+    background: linear-gradient(to right, #2939e2, #1141c4);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3px 0;
     margin-top: 100px;
