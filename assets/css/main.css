@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     color: rgb(25, 25, 25);
     font-family: 'Nunito Sans', sans-serif;
-    background: linear-gradient(180deg, rgb(143, 246, 132) 10%, rgba(255, 255, 255) 35%) 
+    background: linear-gradient(180deg, rgb(255, 255, 255) 20%, rgba(205, 219, 252, 0.504) 40%) 
 
     
 }
@@ -5209,7 +5209,7 @@ a img {
     box-shadow: -3.5px -5px #3a96d3;
 }
 .video{
-    color: rgba(255, 255, 255)
+    color:  transparent
 
 }
 .usa{
