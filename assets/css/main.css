@@ -5092,33 +5092,35 @@ a img {
 
 .project-link {
     display: inline-block;
-    margin: 10px 0;
-    padding: 5px;
-    color: #1488CC;
-    background-color: transparent;
-    border: 1px solid #1488CC;
-    border-radius: 10px;
+    margin: 30px 0;
+    padding: 10px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    border-radius: 3.5px;
     text-align: center;
     outline: 0;
     text-decoration: none;
     cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+    transition: color .1.5s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+    font-family: cursive;
+    user-select: none;
 }
 
 .project-link:active,
 .project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
-    color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+    background-color: #000000;
+    outline: 3px solid #1251f2bb;  
+    color: rgb(255, 255, 255);
+    transition: color .50s ease-in, background-color .20s ease-in, border-color
 }
 
 .footer {
     background: #0448c7;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #e45d23, #0448c7);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #216eff, #2d38cf);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3px 0;
     margin-top: 100px;
