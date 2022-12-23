@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     color: rgb(25, 25, 25);
     font-family: 'Nunito Sans', sans-serif;
-    background: linear-gradient(180deg, rgb(255, 255, 255) 15%, #e8eefdcc 35%) 
+    background: linear-gradient(180deg, rgb(255, 255, 255) 15%, #e4eaf1cc 35%) 
 
     
 }
@@ -5250,12 +5250,23 @@ a img {
     user-select: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 .iam{
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-family: 'Nuosu SIL', serif;
+    font-size: 28px;
+    /* font-weight: bold; */
+    letter-spacing: .5px;
 }
 picture{
     user-select: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+.bienvenido{
+    color: rgb(0, 0, 0);
+    user-select: none;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 2px;
 }
