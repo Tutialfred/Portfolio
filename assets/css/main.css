@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     color: rgb(25, 25, 25);
     font-family: 'Nunito Sans', sans-serif;
-    background: linear-gradient(180deg, #aaaaaa 15%, #fff 35%) 
+    background: linear-gradient(180deg, #e2e2e2 15%, rgb(255, 255, 255) 35%) 
 
     
 }
