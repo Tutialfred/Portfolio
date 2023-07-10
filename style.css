@@ -1395,13 +1395,15 @@ li img {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: #1e6ba8; */
+    background-color: #0501de;
     /* padding: 20px; */
     top: 20px;
     left: 10px ;
     /* border-radius: 10px; */
     /* user-select: none !important; */
   }
+
+
   .animal-links a.twitter {
     transition: 0.7s all;
     /* transform: translateY(-10px); */
