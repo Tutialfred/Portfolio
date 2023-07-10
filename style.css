@@ -1374,7 +1374,7 @@ li img {
 
 
   .name {
-    background-color: rgb(154, 148, 224) !important;
+    background-color: rgb(200, 246, 235) !important;
     /* border: 3px solid black !important; */
     /* color: green !important; */
     font-size: 28px !important;
@@ -1382,7 +1382,7 @@ li img {
     position: relative;
     top: -75px;
     left: -10px !important;
-    max-width: 350px;
+    max-width: 390px;
   }
 
   .developer {
