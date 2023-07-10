@@ -1381,7 +1381,7 @@ li img {
     color: #000000;
     position: relative;
     top: -35px;
-    left: 37px
+    left: 45px !important
   }
 
   .developer {
