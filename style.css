@@ -1384,15 +1384,24 @@ li img {
     left: 3px !important;
     max-width: 390px;
   }
-  .profiles{
-    background-color: red;
+
+
+  /*!  FIX THIS */
+
+
+
+  .animal-links {
+    display: flex;
     position: relative;
-    width: 200px;
-    margin-top: 10px;
-    height: 300px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* background-color: #1e6ba8; */
+    /* padding: 20px; */
+    top: 300px;
+    left: 14px ;
+    /* border-radius: 10px; */
+    /* user-select: none !important; */
   }
-  
-  
 
 
   
