@@ -1384,10 +1384,12 @@ li img {
     left: 3px !important;
     max-width: 390px;
   }
-  .animal-links{
+  .profiles{
     background-color: red;
     position: relative;
     width: 200px;
+    margin-top: 10px;
+    height: 300px;
   }
   
   
