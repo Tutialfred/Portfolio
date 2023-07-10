@@ -1381,8 +1381,26 @@ li img {
     color: #000000;
     position: relative;
     top: -75px;
-    left: -1px !important;
+    left: 3px !important;
     max-width: 390px;
+  }
+  .animal-links{
+    background-color: red;
+    position: relative;
+    width: 200px;
+  }
+  
+  
+
+
+  
+  .profiles {
+    background-color: rgb(0, 188, 217);
+    background-color: transparent;
+    position: relative;
+    top: 440px;
+    user-select: none;
+    
   }
 
   .developer {
@@ -1522,16 +1540,7 @@ li img {
   }
 
   /* ! ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
-  .animal-links a {
-    /* font-size: 85px; */
-    margin: 22px;
-    padding: 23.5px;
-    /* background-color: rgb(215, 208, 208) !important; */
-    position: relative;
-    left: -15px;
-    /* font-size: 600px !important */
-    top: -140px;
-  }
+ 
 
   /* ! SOBRE MI  */
 
