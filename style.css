@@ -1402,7 +1402,21 @@ li img {
     /* border-radius: 10px; */
     /* user-select: none !important; */
   }
-
+  .animal-links a.twitter {
+    transition: 0.7s all;
+    /* transform: translateY(-10px); */
+    background-color: rgb(29, 161, 242);
+    font-weight: 100;
+    border: 1.5px solid black;
+  }
+  
+  .animal-links a.twitter:hover {
+    transition: 0.7s all;
+    transform: translateY(-10px);
+    background-color: rgb(29, 161, 242);
+    font-weight: 100;
+    border: 1px solid black;
+  }
 
   
   .profiles {
