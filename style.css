@@ -142,7 +142,7 @@
   /* background-color: #de19de; */
   /* padding: 20px; */
   top: -400px;
-  left: 5px !important ;
+  left: -25px !important ;
   /* border-radius: 10px; */
   /* user-select: none !important; */
 }
@@ -234,6 +234,25 @@
   right: 12px !important;
   font-weight: 100;
 }
+
+/*? Icono Instagram  */
+.iconoInstagram{
+  font-size: 29px !important;
+  position: relative;
+  bottom: 14px !important;
+  right: 11.5px !important;
+  font-weight: 100;
+  color: white;
+
+}
+
+/*? Icono Tik Tok  */
+.iconoInsgram{
+  color: white;
+}
+
+
+
 .iconocalen {
   color: rgb(255, 255, 255);
   font-size: 29px !important;
@@ -304,7 +323,7 @@
 .animal-links a.github {
   transition: 0.7s all;
   /* transform: translateY(-10px); */
-  background-color: #181717;
+  background-color: #272727;
   font-weight: 100;
   border: 1px solid black;
 }
@@ -312,7 +331,7 @@
 .animal-links a.github:hover {
   transition: 0.7s all;
   transform: translateY(-10px);
-  /* background-color:  #181717; */
+  background-color: #272727;
   font-weight: 100;
   /* border: 3px solid black; */
 }
@@ -385,6 +404,71 @@
   font-weight: 100;
   /* border: 3px solid black; */
 }
+
+
+/* ? Instagram */
+.animal-links a.instagram2 {
+  transition: 0.7s all;
+  /* transform: translateY(-10p); */
+  background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
+  font-weight: 100;
+  border: 1px solid black;
+  
+}
+
+.animal-links a.instagram2:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+
+/* ? Tik Tok*/
+.animal-links a.tiktok2 {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background: linear-gradient(45deg, #141111, #e91515);
+  background: linear-gradient(135deg, #020202, #191313);
+  font-weight: 100;
+  /* border: 1px solid black; */
+  /* border: 1.6px solid rgb(255, 255, 255); */
+  outline: 1px solid rgb(255, 255, 255);
+  
+}
+
+.animal-links a.tiktok2:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  background: linear-gradient(45deg, #000000, #000000);
+  background: linear-gradient(45deg, #000000, #000000);
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+.tiktok3{
+  min-width: 40px;
+  max-height: 40px;
+  /* background-color: red; */
+  /* border: 4px solid blue; */
+  position: relative;
+  top: -20px;
+  left: -19px
+}
+
+
+
+
+
+
+
+
+
+
+
+/** ANOTHERS */
+
+
 
 .icon {
   position: absolute;
