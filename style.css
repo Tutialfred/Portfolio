@@ -1474,16 +1474,9 @@ li img {
 
 
   .animal-links {
-    /* display: flex; */
-    /* position: relative; */
-    /* flex-wrap: wrap; */
     justify-content: center;
     background-color: #fa2727;
-    /* padding: 20px; */
-    /* top: -420px; */
-    left: 10px ;
-    /* border-radius: 10px; */
-    /* user-select: none !important; */
+    left: 13px !important;
     border: 4px solid yellow;
     width: 380px;
     height: 100px;
