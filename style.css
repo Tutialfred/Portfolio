@@ -1209,10 +1209,10 @@ li img {
   }
  .categorias{
   /* background-color: rebeccapurple; */
-  width: 1300px;
-  position: relative;
-  left: 80px;
-  top: 25px;
+  /* width: 100px; */
+  /* position: relative; */
+  /* top: 25px; */
+  /* left: 20px; */
   /* margin: 10px 0 !important; */
   
  }
@@ -1547,20 +1547,21 @@ li img {
   /* ! APARTADO DE HABILIDADES  */
 
   .categorias {
-    background-color: rgb(121, 10, 233);
+    background-color: rgb(121, 10, 233) !important;
     /* align-items: end; */
     /* margin-top: 30px !important; */
-    max-width: 200px;
+    min-width: 10px;
   }
 
   .categorias {
-    background-color: #000;
+    background-color: #b14747 !important;
     /* border: 3px solid white; */
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
-    left: 42px;
-    margin: 0 ;
+    /* left: 42px; */
+    margin: 0 !important;
+    padding: 0 !important;
 
   }
 
