@@ -1295,7 +1295,9 @@ li img {
 /*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
-
+  body {
+    overflow-x: hidden !important;
+  }
 
   a {
     text-decoration: none !important;
@@ -1732,7 +1734,9 @@ body{
 }
 
 
-
+body {
+  overflow-x: hidden !important;
+}
 
 
 }
