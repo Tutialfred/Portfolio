@@ -1547,17 +1547,18 @@ li img {
     background-color: rgb(121, 10, 233);
     /* align-items: end; */
     /* margin-top: 30px !important; */
-    max-width: 200px;
+    max-width: 100px;
   }
 
   .categorias {
-    background-color: #000;
+    background-color: #ffffff !important;
     /* border: 3px solid white; */
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
-    left: 42px;
+    /* left: 42px; */
     margin: 0 ;
+    min-width: 100px;
 
   }
 
