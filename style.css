@@ -1295,6 +1295,11 @@ li img {
 /*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
+
+  body {
+    overflow-x: hidden !important;
+  }
+
   a {
     text-decoration: none !important;
   }
@@ -1475,7 +1480,7 @@ li img {
 
   .animal-links {
     justify-content: center;
-    background-color: #fa2727;
+    background-color: #00c8ff;
     left: 13px !important;
     border: 4px solid yellow;
     width: 380px;
