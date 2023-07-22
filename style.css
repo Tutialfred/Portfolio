@@ -1497,6 +1497,8 @@ li img {
     border-radius: 5px;
     width: 35px;
     height: 35px;
+    /* color : black */
+    /* top: 10px; */
   }
 
 .iconoWhatsapp {
@@ -1510,8 +1512,8 @@ li img {
 .iconoLinkedin {
  
   background-color: #0a66c2;
-  width: 35px;
-    height: 35px;
+  width: 37px;
+  height: 37px;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -1543,8 +1545,14 @@ li img {
   border-radius: 5px;
   width: 35px;
   height: 35px;
+  /* color: black; */
+  /* position: relative; */
 }
-
+.fa-instagram{
+  color: black !important;
+  position: relative;
+  /* top: 1px; */
+}
 
 
 .iconoLemon {
@@ -1647,7 +1655,13 @@ li img {
 
 
 
-
+.iconoTwitter {
+  color: rgb(255, 255, 255);
+  font-size: 30px !important;
+  position: relative;
+  /* bottom: 30px !important; */
+  /* right: 20px !important; */
+}
 
 
 
