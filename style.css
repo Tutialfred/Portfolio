@@ -1655,10 +1655,7 @@ li img {
   min-width: 37px !important;
   /* top: 40px; */
 }
-.tiktok2{
-  position: relative;
-  top: 100px !important;
-}
+
 
 .tiktok3:hover {
   transition: 0.7s all;
@@ -1668,6 +1665,32 @@ li img {
   font-weight: 300;
   /* border: 3px solid black; */
 }
+
+
+
+
+
+
+/* todo → MOVIENDO LOS ICONOS PARA QUE SEAN 5 ARRIBAS Y 5 ABAJOS */
+
+
+.tiktok2{
+  position: relative;
+  top: 100px !important;
+  right: 30px;
+}
+.youtube{
+  position: relative;
+  top:100px;
+  right: 50px
+}
+
+
+
+
+
+
+
 
 
 /* ! finish Here → PROFILES */
