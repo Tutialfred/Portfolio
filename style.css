@@ -1474,40 +1474,96 @@ li img {
   }
 
 
+/* ! PERFILES                         */
+
+
+
+
+
+
+
 
   .animal-links {
     justify-content: center;
-    background-color: #fa2727;
+    background-color: #b2b2b2;
     left: 13px !important;
-    border: 4px solid yellow;
+    border: 4px solid rgb(102, 102, 102);
     width: 380px;
-    height: 100px;
+    height: 120px;
   }
   .iconoTwitter{
     transition: 0.7s all;
     /* transform: translateY(-10px); */
     background-color: rgb(29, 161, 242);
     font-weight: 100;
-    border: 1.5px solid black;  }
+    border: 1.5px solid black;  
+    border-radius: 5px;
+  }
 
-  /* ? TWITTER */
-/* .animal-links a.twitter { */
-  /* transition: 0.7s all; */
-  /* transform: translateY(-10px); */
-  /* background-color: rgb(29, 161, 242);
-  font-weight: 100;
-  border: 1.5px solid black; */
-/* } */
-
-.iconoTwitter:hover {
+  .iconoTwitter:hover {
+    transition: 0.7s all;
+    transform: translateY(-10px);
+    background-color: rgb(29, 161, 242);
+    font-weight: 100;
+    border: 1px solid black;
+}
+.iconoWhatsapp {
   transition: 0.7s all;
-  transform: translateY(-10px);
-  background-color: rgb(29, 161, 242);
+  background-color: #25d366;
   font-weight: 100;
   border: 1px solid black;
+  border-radius: 5px;
+
+}
+.iconoWhatsapp:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  font-weight: 100;
+}
+.iconoLinkedin {
+  transition: 0.7s all;
+  /* transform: translateY(-15px); */
+  background-color: #0a66c2;
+  font-weight: 100;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-  
+.iconoLinkedin:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  /* background-color: #0A66C2; */
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! finish Here → PROFILES */
+
+
+
+
+
+
+
+
+
+
+
+
   .profiles {
     background-color: rgb(0, 188, 217);
     background-color: transparent;
