@@ -1699,8 +1699,26 @@ li img {
   top:100px;
   right: 160px
 }
-
-
+.twitter{
+  position: relative;
+  left: 40px;
+}
+.whatsapp{
+  position: relative;
+  left: 70px;
+}
+.linkedin{
+  position: relative;
+  left: 70px;
+}
+.github{
+  position: relative;
+  left: 90px;
+}
+.calendly{
+  position: relative;
+  left: 70px;
+}
 
 
 
