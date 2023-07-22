@@ -1496,7 +1496,7 @@ li img {
     border: 1.5px solid black;  
     border-radius: 5px;
     width: 35px;
-    height: 35px;
+    height: 37px;
     /* color : black */
     /* top: 10px; */
   }
@@ -1635,6 +1635,7 @@ li img {
 .twitter{
   position: relative;
   left: 40px;
+  /* top: 10px; */
 }
 .whatsapp{
   position: relative;
@@ -1657,8 +1658,9 @@ li img {
 
 .iconoTwitter {
   color: rgb(255, 255, 255);
-  font-size: 30px !important;
+  font-size: 32px !important;
   position: relative;
+  /* top: 2px; */
   /* bottom: 30px !important; */
   /* right: 20px !important; */
 }
