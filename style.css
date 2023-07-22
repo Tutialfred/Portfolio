@@ -1495,23 +1495,23 @@ li img {
     background-color: rgb(29, 161, 242);
     border: 1.5px solid black;  
     border-radius: 5px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 
 .iconoWhatsapp {
     background-color: #25d366;
     border: 1px solid black;
     border-radius: 5px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 
 .iconoLinkedin {
  
   background-color: #0a66c2;
-  width: 35px;
-    height: 35px;
+  width: 40px;
+    height: 40px;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -1520,11 +1520,22 @@ li img {
 .iconogit {
   
   background-color: #272727;
-  width: 35px;
-    height: 35px;
+  width: 40px;
+    height: 40px;
   border-radius: 5px;
   border: 1px solid black;
 }
+.iconocalen {
+
+  background-color: #0bb0c9;
+  width: 40px;
+    height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+
 
 .iconoInstagram {
   transition: 0.7s all;
@@ -1535,14 +1546,7 @@ li img {
   border-radius: 5px;
   
 }
-.iconocalen {
 
-  background-color: #0bb0c9;
-  width: 35px;
-    height: 35px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
 
 
 .iconoLemon {
