@@ -1495,23 +1495,23 @@ li img {
     background-color: rgb(29, 161, 242);
     border: 1.5px solid black;  
     border-radius: 5px;
-    width: 37px;
-    height: 37px;
+    width: 35px;
+    height: 35px;
   }
 
 .iconoWhatsapp {
     background-color: #25d366;
     border: 1px solid black;
     border-radius: 5px;
-    width: 37px;
-    height: 37px;
+    width: 35px;
+    height: 35px;
 }
 
 .iconoLinkedin {
  
   background-color: #0a66c2;
-  width: 37px;
-    height: 37px;
+  width: 35px;
+    height: 35px;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -1520,16 +1520,16 @@ li img {
 .iconogit {
   
   background-color: #272727;
-  width: 37px;
-    height: 37px;
+  width: 35px;
+    height: 35px;
   border-radius: 5px;
   border: 1px solid black;
 }
 .iconocalen {
 
   background-color: #0bb0c9;
-  width: 37px;
-    height: 37px;
+  width: 35px;
+    height: 35px;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -1538,38 +1538,34 @@ li img {
 
 
 .iconoInstagram {
-  transition: 0.7s all;
-  /* transform: translateY(-10p); */
   background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
-  font-weight: 100;
   border: 1px solid black;
   border-radius: 5px;
-  
+  width: 35px;
+  height: 35px;
 }
 
 
 
 .iconoLemon {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
   background-color: #ffd54f;
-  font-weight: 100;
+  width: 35px;
+  height: 35px;
   border: 1px solid black;
   border-radius: 5px;
 }
 .iconoEmail {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
+  width: 35px;
+  height: 35px;
   background-color: rgb(255, 115, 0);
-  font-weight: 100;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 
 .iconoYoutube {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
+  width: 35px;
+  height: 35px;
   background-color: #ff0000;
   font-weight: 100;
   border: 1px solid black;
@@ -1581,8 +1577,8 @@ li img {
 
 
 .tiktok3 {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
+  /* width: 35px; */
+  /* height: 35px; */
   background: linear-gradient(45deg, #141111, #e91515);
   background: linear-gradient(135deg, #020202, #191313);
   /* font-weight: 80; */
@@ -1590,7 +1586,8 @@ li img {
   /* border: 1.6px solid rgb(255, 255, 255); */
   outline: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-  min-width: 37px !important;
+  min-width: 35px !important;
+  min-height: 10px !important;
   /* top: 40px; */
 }
 
@@ -1605,27 +1602,27 @@ li img {
 .tiktok2{
   position: relative;
   top: 100px !important;
-  right: 30px;
+  right: 47px;
 }
 .youtube{
   position: relative;
   top:100px;
-  right: 50px
+  right: 75px
 }
 .email{
   position: relative;
   top:100px;
-  right: 80px
+  right: 105px
 }
 .instagram2{
   position: relative;
   top:100px;
-  right: 20px
+  right: 50px
 }
 .lemoncash{
   position: relative;
   top:100px;
-  right: 160px
+  right: 195px
 }
 .twitter{
   position: relative;
