@@ -144,8 +144,9 @@
   /* background-color: #de19de; */
   /* padding: 20px; */
   top: -400px;
-  left: -25px !important ;
+  left: 150px !important ;
   /* border-radius: 10px; */
+  width: 650px;
   /* user-select: none !important; */
 }
 
