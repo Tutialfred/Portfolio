@@ -1175,6 +1175,13 @@ li img {
 /* Estilos para pantallas medianas y grandes */
 @media (min-width: 768px) {
 
+
+  .image{
+    background-color: red !important;
+    border: 2px solid red;
+    min-width: 500px !important;
+    min-height: 600px !important;
+  }
   /* Centrar texto del perfil */
   .informacion {
     text-align: left;
@@ -2003,9 +2010,3 @@ body{
   }
 }
 
-.image{
-  background-color: red !important;
-  /* border: 2px solid red; */
-  min-width: 500px !important;
-  min-height: 600px !important;
-}
