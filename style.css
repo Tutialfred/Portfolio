@@ -1178,7 +1178,7 @@ li img {
 
   .image{
     background-color: red !important;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-width: 500px !important;
     min-height: 600px !important;
   }
