@@ -1994,7 +1994,7 @@ body{
 
 @media (max-width: 414px){
   .contratoInteligente{
-    background-color: rebeccapurple !important;
+    /* background-color: rebeccapurple !important; */
     position: relative;
     left: 2px !important; 
     padding-bottom: 70px;
