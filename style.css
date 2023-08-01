@@ -856,7 +856,7 @@
   color: #333;
   margin-top: 10px !important;
   /* text-align: center !; */
-  color: rgb(36, 138, 255)!important;
+  color: rgb(0, 255, 60)!important;
   user-select: none;
   font-family: 'Nuosu SIL', serif;
   /* background-color: red; */
@@ -1836,10 +1836,11 @@ li img {
 
   .parrafo {
     color: rgb(255, 255, 255) !important;
-    font-size: 25px !important;
+    font-size: 18px !important;
     letter-spacing: 0.9px;
     margin: 0 15px;
-    text-align: left;
+    text-align: center;
+
   }
   
 
