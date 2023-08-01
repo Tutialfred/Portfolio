@@ -1994,9 +1994,9 @@ body{
 
 @media (max-width: 414px){
   .contratoInteligente{
-    /* background-color: rebeccapurple !important; */
+    background-color: rebeccapurple !important;
     position: relative;
-    left: 75px !important; 
+    left: 2px !important; 
     padding-bottom: 70px;
     max-height: 500px !important;
   }
