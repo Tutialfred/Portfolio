@@ -1991,3 +1991,13 @@ body{
   padding-bottom: 70px;
   max-height: 500px !important;
 }
+
+@media (max-width: 414px){
+  .contratoInteligente{
+    /* background-color: rebeccapurple !important; */
+    position: relative;
+    left: 75px !important; 
+    padding-bottom: 70px;
+    max-height: 500px !important;
+  }
+}
