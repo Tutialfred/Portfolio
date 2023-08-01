@@ -973,8 +973,10 @@
 
 .project-card p {
   font-size: 1.05rem !important;
-  color: #272727;
-  margin: 0.7rem 0.8rem;
+  color: #000000;
+  /* margin: 2rem 0.5rem; */
+  background-color: red;
+  padding: 40px 0 ;
   font-weight: 100 !important;
   user-select: none;
   /* font-family: ' ', sans-serif; */
