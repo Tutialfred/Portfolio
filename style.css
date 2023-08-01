@@ -714,11 +714,13 @@
   /* padding: 100px !important; */
 }
 .contratoInteligente{
-  /* background-color: rebeccapurple !important; */
+  background-color: rebeccapurple !important;
   position: relative;
   left: 75px !important; 
   padding-bottom: 70px;
+  max-height: 100px !important;
 }
+
 .informacion h2 {
   color: #003366;
   font-size: 36px;
@@ -935,11 +937,11 @@
   background-color: rgb(255, 255, 255);
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   border-radius: 15px;
-  border: 3px solid rgb(243, 13, 13);
+  border: 3px solid rgb(255, 255, 255);
   overflow: hidden;
   user-select: none;
   /* height: 685px; */
-  max-height: auto;
+  /* max-height: 1200px !important; */
 }
 
 .project-card:hover {
@@ -971,16 +973,27 @@
   user-select: none;
 }
 
+
+.project-card h5 {
+  /* font-size: 1.7rem; */
+  /* margin: 0.7rem; */
+  /* color: rgb(0, 110, 255); */
+  /* user-select: none; */
+  /* background-color: blue; */
+  margin: 0 6px;
+  padding: 0;
+}
+
 .project-card p {
   font-size: 1.05rem !important;
   color: #000000;
-  /* margin: 2rem 0.5rem; */
-  background-color: red;
-  padding: 40px 0 ;
+  margin: 1rem 0.8rem;
+  /* background-color: red; */
+  /* padding: auto; */
   font-weight: 100 !important;
   user-select: none;
   /* font-family: ' ', sans-serif; */
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
   font-family: "Montserrat", sans-serif;
 
   /* font-weight: 100; */
@@ -1004,11 +1017,6 @@ a{
       align-items: end; */
   text-decoration: none;
 }
-
-/* .project-card a:hover {
-      background-color: #0f7df3;
-      transition: .5s;
-    } */
 
 .h3title {
   /* color: red; */
@@ -1093,13 +1101,13 @@ li img {
 }
 
 .h5 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   letter-spacing: 0.4px;
   /* background-color: red; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !;
-  margin-top: 1.2rem;
-  margin-left: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  /* margin-top: 1.2rem; */
+  /* margin-left: 12px; */
 }
 
 .twitter-timeline {
@@ -1236,7 +1244,7 @@ li img {
 /* Media queries para pantallas más pequeñas */
 @media (max-width: 768px) {
   .project-card {
-    max-width: 90%;
+    /* max-width: 90%;   I DONT KNOW*/   
     padding: 10px;
   }
 
@@ -1417,7 +1425,7 @@ li img {
     background-color: #0792bc !important;
   } */
   .contratoInteligente {
-    /* background-color: rebeccapurple; */
+    background-color: rebeccapurple;
     /* max-height: 1620vh !important; */
     position: relative;
     left: 2px !important;
@@ -1936,6 +1944,10 @@ body{
 
 .project-card{
   background-color: #fff !important;
+  /* max-height: 100px !important; */
+
+  max-height: 630px !important;
+
 }
 .catdos{
   background-color: #fff !important;
@@ -1963,4 +1975,19 @@ body{
 }
 .h4Title{
   user-select: none !important;
+}
+
+
+
+
+
+
+
+
+.contratoInteligente{
+  /* background-color: rebeccapurple !important; */
+  position: relative;
+  left: 90px !important; 
+  padding-bottom: 70px;
+  max-height: 500px !important;
 }
