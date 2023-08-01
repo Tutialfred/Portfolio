@@ -915,6 +915,7 @@
   left: -10px;
   gap: 5rem;
   /* bottom: -2250px; */
+  
 }
 
 .projectT {
@@ -934,11 +935,12 @@
   background-color: rgb(255, 255, 255);
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(243, 13, 13);
   overflow: hidden;
   user-select: none;
   /* height: 685px; */
-  max-height: 600px;
+  max-height: auto;
+ 
 }
 
 .project-card:hover {
@@ -1311,7 +1313,7 @@ li img {
   .project-card {
 
     background-color: rgb(255, 255, 255);
-    max-height: 1815px !important;
+    max-height: 1915px !important;
     max-width: 410px !important;
     /* display: block; */
     padding: 0;
