@@ -1737,6 +1737,10 @@ li img {
     margin-bottom: 120px !important;
     /* display: inline-block; */
   }
+  .front{
+    height: 570px;
+    
+  }
 
   .logo {
     /* background-color: red; */
