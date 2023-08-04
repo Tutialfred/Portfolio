@@ -8,13 +8,6 @@ appDesarrollo.addEventListener("click",  function showAlert() {
     // showCancelButton: true,
     confirmButtonColor: '#176efa',
     confirmButtonText: 'Okay'
-    // cancelButtonColor: '',
-
-
-
-
-
-
-    
+    // cancelButtonColor: '',    
   })
 })

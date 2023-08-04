@@ -1511,7 +1511,7 @@ li img {
 
   .animal-links {
     justify-content: center;
-    /* background-color: #9e9e9e; */
+    background-color: #f20a0a;
     left: 13px !important;
     /* border: 4px solid rgb(81, 81, 81); */
     width: 380px;
@@ -1666,15 +1666,16 @@ li img {
 }
 .whatsapp{
   position: relative;
-  left: 65px;
+  left: -20px;
+  /* background-color: red !important; */
 }
 .linkedin{
   position: relative;
-  left: 90px;
+  left: 60px;
 }
 .github{
   position: relative;
-  left: 120px;
+  left: 130px;
 }
 .calendly{
   position: relative;
