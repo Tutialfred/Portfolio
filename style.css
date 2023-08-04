@@ -1758,7 +1758,30 @@ li img {
     position: relative;
     /* width: 200px; */
     left: 40px;
-    bottom: 49px
+    bottom: 49px;
+    width: 220px;
+  }
+  .react2{
+        /* background-color: green; */
+        position: relative;
+        left: -80px;
+        bottom: 80px;
+        width: 360px;
+
+  }
+  .redux2{
+        /* background-color: green; */
+        position: relative;
+        left: 80px;
+        bottom: 180px;
+        width: 250px;
+
+  }
+  .bootstrap2{
+        /* background-color: green; */
+        position: relative;
+        left: -10px;
+        bottom: 160px;
 
   }
 
