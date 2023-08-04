@@ -1653,66 +1653,35 @@ li img {
 /* todo → MOVIENDO LOS ICONOS PARA QUE SEAN 5 ARRIBAS Y 5 ABAJOS */
 
 
-.tiktok2{
-  position: relative;
-  top: 100px !important;
-  right: 47px;
-}
-.youtube{
-  position: relative;
-  top:100px;
-  right: 75px
-}
+
 .email{
   position: relative;
   top:100px;
-  right: 95px
-}
-.instagram2{
-  position: relative;
-  top:100px;
-  right: 50px
-}
-.lemoncash{
-  position: relative;
-  top:100px;
-  right: 180px
+  right: 97px
 }
 
-.twitter{
+.lemoncash{
   position: relative;
-  left: 40px;
-  /* top: 10px  ; */
+  top: 100px;
+  right: 170px
 }
 .whatsapp{
   position: relative;
-  left: -20px;
+  left: -12px;
   /* background-color: red !important; */
 }
 .linkedin{
   position: relative;
-  left: 60px;
+  left: 55px;
 }
 .github{
   position: relative;
-  left: 130px;
+  left: 120px;
 }
 .calendly{
   position: relative;
-  left: 87px;
+  left: 80px;
   top:100px;
-
-}
-
-
-
-.iconoTwitter {
-  color: rgb(255, 255, 255);
-  font-size: 32px !important;
-  position: relative;
-  /* top: 2px; */
-  /* bottom: 30px !important; */
-  /* right: 20px !important; */
 }
 
 
