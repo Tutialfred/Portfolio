@@ -1511,7 +1511,7 @@ li img {
 
   .animal-links {
     justify-content: center;
-    background-color: #f20a0a;
+    /* background-color: #f20a0a; */
     left: 13px !important;
     /* border: 4px solid rgb(81, 81, 81); */
     width: 380px;
@@ -1545,6 +1545,9 @@ li img {
   height: 37px;
   border: 1px solid black;
   border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 48px !important;
 }
 
 
@@ -1555,6 +1558,9 @@ li img {
     height: 35px;
   border-radius: 5px;
   border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  font-size: 48px !important;
 }
 .iconocalen {
 
@@ -1563,6 +1569,9 @@ li img {
     height: 35px;
   border: 1px solid black;
   border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 48px !important;
 }
 
 
@@ -1590,6 +1599,9 @@ li img {
   height: 35px;
   border: 1px solid black;
   border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 48px !important;
 }
 .iconoEmail {
   width: 35px;
@@ -1597,6 +1609,9 @@ li img {
   background-color: rgb(255, 115, 0);
   border: 1px solid black;
   border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 48px !important;
 }
 
 
@@ -1649,7 +1664,7 @@ li img {
 .email{
   position: relative;
   top:100px;
-  right: 105px
+  right: 95px
 }
 .instagram2{
   position: relative;
@@ -1659,7 +1674,7 @@ li img {
 .lemoncash{
   position: relative;
   top:100px;
-  right: 195px
+  right: 180px
 }
 
 .twitter{
@@ -1682,7 +1697,9 @@ li img {
 }
 .calendly{
   position: relative;
-  left: 100px;
+  left: 87px;
+  top:100px;
+
 }
 
 
