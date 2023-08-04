@@ -1519,15 +1519,7 @@ li img {
     width: 380px;
     height: 120px;
   }
-  .iconoTwitter{
-    background-color: rgb(29, 161, 242);
-    border: 1.5px solid black;  
-    border-radius: 5px;
-    width: 35px;
-    height: 37px;
-    /* color : black */
-    /* top: 10px; */
-  }
+
 
 .iconoWhatsapp {
     background-color: #25d366;
@@ -1579,22 +1571,6 @@ li img {
 
 
 
-.iconoInstagram {
-  background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 35px;
-  height: 35px;
-  /* color: black; */
-  /* position: relative; */
-}
-.fa-instagram{
-  color: black !important;
-  position: relative;
-  /* top: 1px; */
-}
-
-
 .iconoLemon {
   background-color: #ffd54f;
   width: 35px;
@@ -1611,39 +1587,12 @@ li img {
   background-color: rgb(255, 115, 0);
   border: 1px solid black;
   border-radius: 5px;
-  width: 50px;
-  height: 50px;
-  font-size: 48px !important;
+  width: 45px;
+  height: 43px;
+  font-size: 39px !important;
 }
 
 
-.iconoYoutube {
-  width: 35px;
-  height: 35px;
-  background-color: #ff0000;
-  font-weight: 100;
-  border: 1px solid black;
-  border-radius: 5px;
-  
-}
-
-
-
-
-.tiktok3 {
-  /* width: 35px; */
-  /* height: 35px; */
-  background: linear-gradient(45deg, #141111, #e91515);
-  background: linear-gradient(135deg, #020202, #191313);
-  /* font-weight: 80; */
-  /* border: 1px solid black; */
-  /* border: 1.6px solid rgb(255, 255, 255); */
-  outline: 1px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  min-width: 35px !important;
-  min-height: 10px !important;
-  /* top: 40px; */
-}
 
 
 
