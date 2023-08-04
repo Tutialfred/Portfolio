@@ -1571,6 +1571,7 @@ li img {
   height: 45px;
   /* top: .4px; */
   font-size: 40px !important;
+  padding-top: 2px;
 }
 
 
@@ -1619,7 +1620,7 @@ li img {
 .lemoncash{
   position: relative;
   top: 100px;
-  right: 170px
+  right: 168px
 }
 .whatsapp{
   position: relative;
@@ -1628,7 +1629,7 @@ li img {
 }
 .linkedin{
   position: relative;
-  left: 55px;
+  left: 53px;
 }
 .github{
   position: relative;
