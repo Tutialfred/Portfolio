@@ -1588,8 +1588,9 @@ li img {
   border: 1px solid black;
   border-radius: 5px;
   width: 45px;
-  height: 43px;
-  font-size: 39px !important;
+  height: 45px;
+  /* top: .4px; */
+  font-size: 40px !important;
 }
 
 
