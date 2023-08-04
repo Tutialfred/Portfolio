@@ -1735,16 +1735,31 @@ li img {
   .catdos {
     background-color: rgb(255, 255, 255) !important;
     margin-bottom: 120px !important;
+    /* display: inline-block; */
   }
 
   .logo {
     /* background-color: red; */
-    padding: 0;
+    /* padding: 0; */
     /* width: 150px;; */
     /* margin-top: -15px !important; */
     position: relative;
     /* top: 10px; */
     /* max-width: 300px !important; */
+  }
+  .html2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: -80px;
+  }
+  .css2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: 40px;
+    bottom: 49px
+
   }
 
 
