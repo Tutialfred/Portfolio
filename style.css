@@ -1751,6 +1751,10 @@ li img {
     /* top: 10px; */
     /* max-width: 300px !important; */
   }
+
+  /** Frontend  */
+
+
   .html2{
     /* background-color: green; */
     position: relative;
@@ -1786,9 +1790,51 @@ li img {
         position: relative;
         left: 1px;
         bottom: 160px;
-
   }
+/* * BACKEND */
 
+.javascript2{
+  /* background-color: green; */
+  position: relative;
+  /* width: 200px; */
+  left: -80px;
+}
+.nodejs2{
+   /* background-color: green; */
+   position: relative;
+   /* width: 200px; */
+   left: 80px;
+   bottom: 100px;
+   /* width: 220px; */
+  }
+.javascript2{
+  /* background-color: green; */
+  position: relative;
+  /* width: 200px; */
+  left: -80px;
+}
+.express2{
+  /* background-color: green; */
+  position: relative;
+  /* width: 200px; */
+  left: -80px;
+  bottom: 70px;
+}
+.postgresql2{
+  /* background-color: green; */
+  position: relative;
+  /* width: 200px; */
+  left: 83px;
+  bottom: 170px;
+}
+}
+.sequelize2{
+  /* background-color: green; */
+  position: relative;
+  /* width: 200px; */
+  left: 5px;
+  bottom: 160px;
+}
 
   /* sadasd */
 
