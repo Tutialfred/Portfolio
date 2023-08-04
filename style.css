@@ -1211,7 +1211,23 @@ li img {
   }
   .css2{
     /* background-color: red !important; */
-    width: 62px !important; 
+    width: 120px !important; 
+  }
+  .react2{
+    /* background-color: red !important; */
+    width: 160px !important;
+    /* height: ; */
+    left: 12px;
+    position: relative; 
+    padding: 0 !important;
+  }
+  .redux2{
+    /* background-color: red !important; */
+    width: 140px !important;
+    /* heiht: ; */
+    left: -8px;
+    position: relative; 
+    padding: 0 !important;
   }
   /* Ajustar tamaño de la imagen del perfil */
   .perfil img {
@@ -1741,6 +1757,14 @@ li img {
     height: 570px;
     
   }
+  .back{
+    height: 570px;
+    
+  }
+  .tool{
+    height: 570px;
+    
+  }
 
   .logo {
     /* background-color: red; */
@@ -1767,7 +1791,7 @@ li img {
     /* width: 200px; */
     left: 40px;
     bottom: 49px;
-    width: 220px;
+    /* width: 220px; */
   }
   .react2{
         /* background-color: green; */
@@ -1806,37 +1830,55 @@ li img {
    left: 80px;
    bottom: 100px;
    /* width: 220px; */
-  }
-.javascript2{
-  /* background-color: green; */
-  position: relative;
-  /* width: 200px; */
-  left: -80px;
 }
 .express2{
-  /* background-color: green; */
-  position: relative;
-  /* width: 200px; */
-  left: -80px;
-  bottom: 70px;
-}
-.postgresql2{
-  /* background-color: green; */
-  position: relative;
-  /* width: 200px; */
-  left: 83px;
-  bottom: 170px;
-}
+   /* background-color: green; */
+   position: relative;
+   /* width: 200px; */
+   left: -75px;
+   bottom: 70px;
+   /* width: 220px; */
 }
 .sequelize2{
-  /* background-color: green; */
-  position: relative;
-  /* width: 200px; */
-  left: 5px;
-  bottom: 160px;
+  /* background-color: red; */
+  left: -5px;
+  bottom: 170px;
 }
-
-  /* sadasd */
+.postgresql2{
+  /* background-color: black; */
+  left: 80px;
+  bottom: 170px;
+}
+.vs2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: -80px;
+}
+.git2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: 80px;
+    bottom: 125px;
+    /* width: 220px; */
+}
+.npm2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: -80px;
+    bottom: 90px;
+    /* width: 220px; */
+}
+.gpt2{
+    /* background-color: green; */
+    position: relative;
+    /* width: 200px; */
+    left: 70px;
+    bottom: 215px;
+    /* width: 220px; */
+}
 
 
 
