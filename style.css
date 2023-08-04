@@ -1528,8 +1528,10 @@ li img {
     width: 50px;
     height: 50px;
     font-size: 48px !important;
-
-    /* left: 20px; */
+    width: 45px;
+    height: 45px;
+    /* top: .4px; */
+    font-size: 40px !important;
 }
 
 .iconoLinkedin {
@@ -1539,9 +1541,10 @@ li img {
   height: 37px;
   border: 1px solid black;
   border-radius: 5px;
-  width: 50px;
-  height: 50px;
-  font-size: 48px !important;
+  width: 45px;
+  height: 45px;
+  /* top: .4px; */
+  font-size: 40px !important;
 }
 
 
@@ -1552,9 +1555,10 @@ li img {
     height: 35px;
   border-radius: 5px;
   border: 1px solid black;
-  width: 50px;
-  height: 50px;
-  font-size: 48px !important;
+  width: 45px;
+  height: 45px;
+  /* top: .4px; */
+  font-size: 40px !important;
 }
 .iconocalen {
 
@@ -1563,9 +1567,10 @@ li img {
     height: 35px;
   border: 1px solid black;
   border-radius: 5px;
-  width: 50px;
-  height: 50px;
-  font-size: 48px !important;
+  width: 45px;
+  height: 45px;
+  /* top: .4px; */
+  font-size: 40px !important;
 }
 
 
@@ -1577,9 +1582,10 @@ li img {
   height: 35px;
   border: 1px solid black;
   border-radius: 5px;
-  width: 50px;
-  height: 50px;
-  font-size: 48px !important;
+  width: 45px;
+  height: 45px;
+  /* top: .4px; */
+  font-size: 40px !important;
 }
 .iconoEmail {
   width: 35px;
