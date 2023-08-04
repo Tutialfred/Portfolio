@@ -1541,66 +1541,47 @@ li img {
     background-color: #25d366;
     border: 1px solid black;
     border-radius: 5px;
+    font-size: 40px !important;
     width: 50px;
     height: 50px;
-    font-size: 48px !important;
-    width: 45px;
-    height: 45px;
-    /* top: .4px; */
-    font-size: 40px !important;width: 50px;
-    height: 50px;
-    /* top: .4px; */
     font-size: 45px !important;
-}
-
-.iconoLinkedin {
+    padding-top: 2px;
+  }
+  
+  .iconoLinkedin {
  
   background-color: #0a66c2;
   width: 37px;
   height: 37px;
   border: 1px solid black;
   border-radius: 5px;
-  width: 45px;
-  height: 45px;
-  /* top: .4px; */
-  font-size: 40px !important;width: 50px;
+  width: 50px;
   height: 50px;
-  /* top: .4px; */
   font-size: 45px !important;
+  padding-top: 2px;
 }
 
 
 .iconogit {
-  
   background-color: #272727;
-  width: 35px;
-    height: 35px;
   border-radius: 5px;
   border: 1px solid black;
-  width: 45px;
-  height: 45px;
-  /* top: .4px; */
-  font-size: 40px !important;width: 50px;
-  height: 50px;
-  /* top: .4px; */
-  font-size: 45px !important;
-}
-.iconocalen {
-
-  background-color: #0bb0c9;
-  width: 35px;
-    height: 35px;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 45px;
-  height: 45px;
-  /* top: .4px; */
   font-size: 40px !important;
-  padding-top: 2px;
   width: 50px;
   height: 50px;
-  /* top: .4px; */
+  font-size: 45px !important; 
+  padding-top: 2px;
+
+}
+.iconocalen {
+  background-color: #0bb0c9;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+ 
   font-size: 45px !important;
+  padding-top: 2px;
 }
 
 
@@ -1608,28 +1589,25 @@ li img {
 
 .iconoLemon {
   background-color: #ffd54f;
-  width: 35px;
-  height: 35px;
   border: 1px solid black;
   border-radius: 5px;
   width: 50px;
   height: 50px;
-  /* top: .4px; */
   font-size: 45px !important;
+  padding-top: 2px;
 }
 .iconoEmail {
-  width: 35px;
-  height: 35px;
+
   background-color: rgb(255, 115, 0);
   border: 1px solid black;
   border-radius: 5px;
-  width: 45px;
-  height: 45px;
-  /* top: .4px; */
-  font-size: 40px !important;width: 50px;
+  font-size: 40px !important;
+  width: 50px;
   height: 50px;
-  /* top: .4px; */
+ 
   font-size: 45px !important;
+  padding-top: 2px;
+
 }
 
 
