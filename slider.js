@@ -40,7 +40,7 @@
 //! FUNCION PARA EL SWEET ALERT EN EL FORMULARIO
 
 
-const appDesarrollo = document.querySelector("#sendss")
+const appDesarrollo = document.querySelector(".contratoInteligente")
 
 appDesarrollo.addEventListener("click",  function showAlert() {
  Swal.fire({
@@ -53,3 +53,4 @@ appDesarrollo.addEventListener("click",  function showAlert() {
     // cancelButtonColor: '',    
   })
 })
+

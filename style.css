@@ -717,13 +717,13 @@
   /* height: 1400px; */
   /* padding: 100px !important; */
 }
-.contratoInteligente{
+/* .contratoInteligente{
   background-color: rebeccapurple !important;
   position: relative;
   left: 75px !important; 
   padding-bottom: 70px;
   max-height: 100px !important;
-}
+} */
 
 .informacion h2 {
   color: #003366;
@@ -1063,7 +1063,13 @@ li img {
   width: 54px;
   list-style: none;
 }
-
+.html33{
+  width: 60px;
+  position: relative;
+  list-style: none;
+  /* background-color: red; */
+  top: 12px !important;
+}
 .htmlo {
   width: 60px;
 }
@@ -1452,19 +1458,7 @@ li img {
   /* .image {
     background-color: #0792bc !important;
   } */
-  .contratoInteligente {
-    background-color: rebeccapurple;
-    /* max-height: 1620vh !important; */
-    position: relative;
-    left: 2px !important;
-    /* bottom: -10px !important; */
-    /* max-width: 335px !important; */
-    /* margin-bottom: 110px !important; */
-    /* padding-bottom: 90px; */
-    /* margin-bottom: 30px !important; */
-    /* padding-bottom: 130px !important; */
-
-  }
+  /*  */
 
   .project-list {
     background-color: transparent;
@@ -2070,23 +2064,7 @@ body{
 
 
 
-.contratoInteligente{
-  /* background-color: rebeccapurple !important; */
-  position: relative;
-  left: 90px !important; 
-  padding-bottom: 70px;
-  max-height: 500px !important;
-}
 
-@media (max-width: 414px){
-  .contratoInteligente{
-    /* background-color: rebeccapurple !important; */
-    position: relative;
-    left: 2px !important; 
-    padding-bottom: 70px;
-    max-height: 500px !important;
-  }
-}
 
 
 
@@ -2248,4 +2226,10 @@ body{
 .h55{
   /* background-color: red; */
   margin-top: 40px;
+}
+.hovers:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+  /* box-shadow: 9px -9px 9px rgb(255, 255, 255); */
+  transition: all .9s ease; /* Transición de 0.3 segundos con función de suavizado */
 }
