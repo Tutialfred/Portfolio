@@ -693,6 +693,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  /* background-color: red; */
+  /* max-width: 1400px; */
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .perfil img {
@@ -1940,9 +1944,9 @@ li img {
     background-color: red;
   } */
   .sobre-mi{
-    background-color: #000 !important;
+    /* background-color: #22c28d !important; */
     max-width: 500px !important;
-    background-color: black;
+    /* background-color: rgb(17, 231, 53) !important; */
     height:3790px;
     max-width: 392px !important;
     /* border: 3px solid blue; */
@@ -2084,3 +2088,164 @@ body{
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! testimony */
+
+
+
+
+
+
+
+
+/* Testimony */
+
+.testimony{
+  background-color: #ffffff;
+  color: black;
+}
+
+.testimony__container{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 1em;
+  align-items: center;
+}
+
+.testimony__body{
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.testimony__body--show{
+  pointer-events: unset;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__img{
+  width: 540px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border: 2.5px solid black;
+}
+
+.testimony__texts{
+  max-width: 700px;
+}
+
+.testimony__course{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  display: inline-block;
+  padding: 5px;
+}
+
+.testimony__arrow{
+  width: 90%;
+  cursor: pointer;
+}
+
+
+/** PROJECTS */
+.projectss{
+  /* background-color: red; */
+  height: 670px;
+  margin-top: 120px;
+}
+.project22{
+  color: white;
+  margin-left: 50px;
+  font-size: 60px;
+  /* text-align: center; */
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+
+
+@media (max-width:800px){
+
+    .testimony__container{
+        grid-template-columns: 30px 1fr 30px;
+    }
+
+    .testimony__body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 3em;
+        justify-items:center ;
+    }
+
+
+    .testimony__img{
+        width: 200px;
+        height: 200px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+.testimony{
+  --padding-container: 60px 0;
+}
+
+.testimony__container{
+  grid-template-columns: 28px 1fr 28px;
+  gap: .9em;
+}
+
+.testimony__arrow{
+  width: 100%;
+}
+
+.testimony__course{
+  margin-top: 15px;
+}
+}
+.h55{
+  /* background-color: red; */
+  margin-top: 40px;
+}
