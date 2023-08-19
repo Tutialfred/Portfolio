@@ -847,7 +847,7 @@
   line-height: 1.5;
   letter-spacing: 0.3px;
   color: #176efa;
-  color: #333;
+  color: #000000 !important;
   /* margin: 0; */
 }
 
@@ -1203,8 +1203,16 @@ li img {
   .parrafo{
     background-color: transparent;
     /* background-color: red ; */
-    font-size: 25px !important;
-    letter-spacing: .8px !important;
+    font-size: 21px !important;
+    letter-spacing: .3px !important;
+    color: black;
+    /* text-align: ; */
+  }
+  .aboutme{
+    background-color: rgb(254, 254, 254);
+    color: black !important;
+    padding: 15px;
+    border-radius: 10px;
   }
   .logo{
     /* background-color: green; */
@@ -1906,7 +1914,7 @@ li img {
   }
 
   .parrafo {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
     font-size: 19px !important;
     letter-spacing: 0.7px;
     margin: 0 15px;
@@ -2237,18 +2245,19 @@ body{
 
 
 .cvs{
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(0, 0, 0);
   max-width: 210px !important;
   min-height: 35px !important;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 24px;
   position: relative;
-  left: 670px;
+  left: 664px;
   top: 20px;
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(0, 255, 60);
+  /* color: !important; */
 }
 .cvs2{
-  color: rgb(37, 37, 37);
+  color: rgb(255, 255, 255);
   text-align: center;
   position: relative;
   left: 40px;
