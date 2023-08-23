@@ -147,334 +147,135 @@
   /* justify-content: center; */
   /* background-color: #de19de; */
   /* padding: 20px; */
-  top: 70px;
-  left: 175px !important ;
-  /* border-radius: 10px; */
-  width: 550px;
+  top: 65px;
+  /* right: 145px; */
+  /* width: 550px; */
   /* user-select: none !important; */
 }
-
-.animal-links a {
-  display: block;
-  /* color: #000000; */
-
-  /* margin: 10px; */
-  text-decoration: none;
-  /* border: 2px solid #ffffff; */
-  /* padding: 10px; */
-  border-radius: 20%;
-  height: 1px;
-  width: 1px;
-  background-color: aqua;
-  display: block;
+.animal-lins{
+/* background-color: rgb(255, 255, 255); */
+display: flex;
+position: relative;
+width: 420px;
+top: 50px ;
+right: 143px;
 }
 
-/* ! ICONOS LOGO */
-/* ? ALL */
-.icono {
-  color: rgb(255, 255, 255);
-  font-size: 29px !important;
-  position: relative;
-  bottom: 10px !important;
-  right: 8px !important;
-  /* font-weight: 100; */
+.animal-lins a {
+  border: rgb(0, 123, 255) 2px solid;
+  border-radius: 27%;
+  width: 38px;
+  height: 38px;
+  margin-left: 20px;
+  transition: 0.7s all;
+
+  
 }
+.animal-lins a.wps:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color: #25d366;
+  border: 2px solid #25d366;
+}
+.animal-lins a.linke:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color: #0a66c2;
+  border: 2px solid #0a66c2;
+
+}
+.animal-lins a.gitH:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color: #272727;
+  border: 2px solid #272727;
+
+}
+.animal-lins a.calend:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color: #0bb0c9;
+  border: 2px solid #0bb0c9;
+}
+.animal-lins a.lemo:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color:  #FFD54F;
+  border: 2px solid #FFD54F;
+
+}
+.animal-lins a.maail:hover {
+  transform: translateY(-10px);
+  transition: 0.7s all;
+  background-color: rgb(255, 115, 0);
+  border: 2px solid rgb(255, 115, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ? LEMON */
 .iconoLemon {
   color: rgb(255, 255, 255);
-  font-size: 29px !important;
+  font-size: 22px !important;
   position: relative;
-  bottom: 15px !important;
-  right: 11px !important;
-  font-weight: 100;
-}
-
-/* ? YOU TUBE */
-.iconoYoutube {
-  color: rgb(255, 255, 255);
-  font-size: 29px !important;
-  position: relative;
-  bottom: 14.5px !important;
-  right: 14px !important;
+  top: 7.5px !important;
   font-weight: 100;
 }
 
 /* ? EMAIL */
 .iconoEmail {
   color: rgb(255, 255, 255);
-  font-size: 29px !important;
+  font-size: 22px !important;
   position: relative;
-  bottom: 15.5px !important;
-  right: 14px !important;
-  font-weight: 100;
+  top: 7px !important;
 }
 
 /* ? LINKEDIN */
 .iconoLinkedin {
   color: rgb(255, 255, 255);
-  font-size: 29px !important;
+  font-size: 22px !important;
   position: relative;
-  bottom: 15px !important;
-  right: 10px !important;
-  font-weight: 100;
+  top: 7px !important;
 }
 
 /* ? WHATSAPP */
 .iconoWhatsapp {
   color: rgb(255, 255, 255);
-  font-size: 29px !important;
-
-  
+  font-size: 22px !important; 
   position: relative;
-  bottom: 15px !important;
-  right: 11px !important;
-  font-weight: 100;
+  top: 7.5px !important;
 }
 
-/* ? TWITTER */
-.iconoTwitter {
-  color: rgb(255, 255, 255);
-  font-size: 29px !important;
-  position: relative;
-  bottom: 13px !important;
-  right: 12px !important;
-  font-weight: 100;
-}
 
-/*? Icono Instagram  */
-.iconoInstagram{
-  font-size: 29px !important;
-  position: relative;
-  bottom: 14px !important;
-  right: 11.5px !important;
-  font-weight: 100;
-  color: white;
-
-}
-
-/*? Icono Tik Tok  */
-.iconoInsgram{
-  color: white;
-}
 
 
 
 .iconocalen {
   color: rgb(255, 255, 255);
-  font-size: 29px !important;
+  font-size: 22px !important;
   position: relative;
-  bottom: 15px !important;
-  right: 13px !important;
+  top: 7px !important;
+  /* right: 13px !important; */
   font-weight: 100;
 }
 .iconogit {
   color: rgb(250, 250, 250);
-  font-size: 29px !important;
+  font-size: 22px !important;
   position: relative;
-  bottom: 15px !important;
-  right: 12.5px !important;
+  top: 7px !important;
+  /* right: 4px !important; */
   font-weight: 100;
 }
-
-/* ! LINKS A PERFILES */
-
-/* ? TWITTER */
-.animal-links a.twitter {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: rgb(29, 161, 242);
-  font-weight: 100;
-  border: 1.5px solid black;
-}
-
-.animal-links a.twitter:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  background-color: rgb(29, 161, 242);
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-/* ? WHATSAPP */
-.animal-links a.whatsapp:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  font-weight: 100;
-}
-
-.animal-links a.whatsapp {
-  transition: 0.7s all;
-  background-color: #25d366;
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-/* ? CALENDLY */
-.animal-links a.calendly:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  font-weight: 100;
-}
-
-.animal-links a.calendly {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: #0bb0c9;
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-
-/* ? GIT HUB */
-.animal-links a.github {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: #272727;
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-.animal-links a.github:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  background-color: #272727;
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-/* ? LINKEDIN */
-.animal-links a.linkedin {
-  transition: 0.7s all;
-  /* transform: translateY(-15px); */
-  background-color: #0a66c2;
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-.animal-links a.linkedin:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  /* background-color: #0A66C2; */
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-/* ? EMAIL */
-.animal-links a.email {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: rgb(255, 115, 0);
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-.animal-links a.email:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  /* background-color:  rgb(255, 115, 0); */
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-/* ? LEMON */
-.animal-links a.lemoncash {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: #ffd54f;
-  font-weight: 100;
-  border: 1px solid black;
-}
-
-.animal-links a.lemoncash:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  /* background-color:  #FFD54F; */
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-/* ? YOU TUBE */
-.animal-links a.youtube {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background-color: #ff0000;
-  font-weight: 100;
-  border: 1px solid black;
-  
-}
-
-.animal-links a.youtube:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  background-color: #ff0000;
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-
-/* ? Instagram */
-.animal-links a.instagram2 {
-  transition: 0.7s all;
-  /* transform: translateY(-10p); */
-  background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
-  font-weight: 100;
-  border: 1px solid black;
-  
-}
-
-.animal-links a.instagram2:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  background: linear-gradient(190deg,#b804c5, #f24bd6, #f41694, #f13da3,#ffbb00, #e9bf19);
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-
-
-/* ? Tik Tok*/
-.animal-links a.tiktok2 {
-  transition: 0.7s all;
-  /* transform: translateY(-10px); */
-  background: linear-gradient(45deg, #141111, #e91515);
-  background: linear-gradient(135deg, #020202, #191313);
-  font-weight: 100;
-  /* border: 1px solid black; */
-  /* border: 1.6px solid rgb(255, 255, 255); */
-  outline: 1px solid rgb(255, 255, 255);
-  
-}
-
-.animal-links a.tiktok2:hover {
-  transition: 0.7s all;
-  transform: translateY(-10px);
-  background: linear-gradient(45deg, #000000, #000000);
-  background: linear-gradient(45deg, #000000, #000000);
-  font-weight: 100;
-  /* border: 3px solid black; */
-}
-.tiktok3{
-  min-width: 40px;
-  max-height: 40px;
-  /* background-color: red; */
-  /* border: 4px solid blue; */
-  position: relative;
-  top: -20px;
-  left: -19px
-}
-
-
-
-
-
-
-
-
-
-
-
-/** ANOTHERS */
-
 
 
 .icon {
@@ -538,11 +339,22 @@
 
 .video-background {
   position: relative;
+  /* left: 30px; */
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  /* background-color: red; */
 }
 
+
+.mindset{
+  /* background-color: red; */
+  position: relative;
+  left: 800px;
+  bottom: 50px;
+  width: 600px;  
+  user-select: none;
+}
 .video-background video {
   position: absolute;
   top: 0;
@@ -551,6 +363,7 @@
   height: 100%;
   object-fit: cover;
   /* z-index: -1; */
+  background-color: blue;
 }
 
 .video-background .content {
@@ -560,6 +373,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
+  /* background-color: pink; */
 }
 
 .content {
@@ -574,7 +388,7 @@
 
 
 .name {
-  font-size: 76px;
+  font-size: 70px;
   width: 900px;
   display: block;
   line-height: 1;
@@ -582,39 +396,43 @@
   /* background-color: rgb(255, 255, 255); */
   font-weight: 100;
   user-select: none;
-  color: rgb(0, 0, 0);
-  text-shadow: -4px 3px 1px rgb(194, 194, 194);
-  animation: move 7s ease-in-out infinite;
+  color: rgb(255, 255, 255);
+  /* text-shadow: -4px 3px 1px rgb(194, 194, 194); */
+  /* animation: move 7s ease-in-out infinite; */
   position: relative;
-  left: 40px;
-  bottom: 60px;
+  right: 263px;
+  bottom: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-/* !MOVIMIENTO DEL TITULO */
-@keyframes move {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.helloT{
+  color: rgb(0, 123, 255);
+  position: relative;
+  right: 532px;
+  bottom: 50px;
+  user-select: none;
+  font-size: 28px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .developer {
-  font-size: 32px;
+  font-size: 20px;
   display: block;
-  line-height: 1;
-  color: #000000;
+  line-height: 1.7;
+  color: #ffffff;
   margin-top: 30px;
-  text-shadow: -2.5px 2px 1px rgb(190, 190, 190);
+  /* text-shadow: -2.5px 2px 1px rgb(190, 190, 190); */
   /* top: 10px; */
+  width: 740px;
+  text-align: left;
   /* position:relative; */
-  font-weight: 100;
+  font-weight: lighter;
   user-select: none;
-  animation: moves 7s ease-in-out infinite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* animation: moves 7s ease-in-out infinite; */
+  position: relative;
+  right: 122px;
+  /* background-color: rgb(255, 27, 27); */
 
 }
 @keyframes moves {
@@ -860,68 +678,20 @@
 }
 
 .h2Title {
-  /* font-family: "Montserrat", sans-serif !important; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-  font-weight: bolder;
-  font-size: 50px !important;
+  font-size: 38px !important;
   line-height: 1.2;
-  font-weight: 100 !important;
+  font-weight: 700 !important;
   letter-spacing: 0.5px;
-  color: #333;
-  margin-top: 10px !important;
-  /* text-align: center !; */
-  color: rgb(0, 255, 60)!important;
-  user-select: none;
-  font-family: 'Nuosu SIL', serif;
-  /* background-color: red; */
+  /* margin-top: 10px !important; */
+  color: rgb(255, 255, 255)!important;
+  text-align: start;
   position: relative;
-  top: -5px;
-  font-weight: bold;
-  /* background-color: red; */
-  text-align: center;
+  left: 5px;
+  /* margin-bottom: 250px !important; */
 }
 
-.web3Profile {
-  /* background-color: #000000; */
-  text-align: center;
-  /* top: 10px; */
-  position: relative;
-  width: 1518.5px;
-  left: 50px;
-  top: -30px;
-  height: 1450px;
-}
 
-.h1web3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px !important;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
-  color: #333;
-  margin: 0;
-  color: rgb(255, 255, 255);
-  text-shadow: 3px 3px 0.5px rgb(0, 0, 0);
-
-  user-select: none;
-  position: relative;
-  top: 25px;
-}
-
-.fotoweb3 {
-  /* background-color: red; */
-  width: 450px;
-  top: 45px;
-  position: relative;
-  outline: 1px solid rgb(109, 109, 109);
-  border-radius: 20px;
-}
-
-.fotoweb3:hover {
-  outline: 2.9px solid white;
-  /* transition: .5s; */
-  transform: scale(1.1);
-  transition: 1.3s;
-}
 
 /* ! PROJECTOS */
 
@@ -1206,36 +976,48 @@ li img {
   }
   /* Centrar texto del perfil */
   .informacion {
-    text-align: left;
     /* background-color: rebeccapurple; */
-    margin: 0 40px;
-    font-size: 3000px !important;
+    position: relative;
+    left: 30px;
+    top: 15px;
   }
 
   .parrafo{
-    /* background-color: transparent; */
-    /* background-color: red ; */
-    font-size: 20px !important;
-    /* letter-spacing: .3px !important; */
-    color: black;
+   
+    font-size: 18.4px !important;
+    color: rgb(168, 168, 168) !important;
     position: relative;
     left: 5px !important;
-    /* text-align: ; */
   }
   .aboutme{
-    background-color: rgb(254, 254, 254);
-    color: black !important;
-    padding: 20px 11px 1px 5px;
-    border-radius: 10px;
+    /* background-color: rgb(195, 6, 6); */
+    color: rgb(49, 49, 49) !important;
+    width: 700px;
   }
   .aboutme2{
     margin-top: 30px;
-    background-color: rgb(255, 255, 255);
-    color: black !important;
-    padding: 15px 10px 2px 15px;
-    border-radius: 10px;
-    width: 390px;
-    
+    /* background-color: rgb(13, 56, 188); */
+    width: 220px;
+    position: relative;
+    left: 4px;
+  }
+  .aboutme2 p {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    font-size: 17px;
+    font-weight: 800;
+  }
+  .aboutme4{
+    margin-top: 25px;
+
+    /* background-color: green; */
+  }
+  .aboutme4 p {
+    color: rgb(168, 168, 168) !important;
+    font-size: 18px
+
+  }
+  .g22{
+    display: flex;
   }
   .aboutme3{
     margin-top: 30px;
@@ -1247,14 +1029,10 @@ li img {
     /* position: relative; */
     /* left: 200px; */
     /* bottom: 200px; */
-    margin-left: 40px;
+    /* margin-left: 40px; */
   }
-  .g22{
-    /* background-color: red; */
-    display: flex;
-    /* margin-left: 20px; */
 
-  }
+
   .logo{
     /* background-color: green; */
     width: 150px;
@@ -1473,6 +1251,7 @@ li img {
 
   .video-background {
     width: 369.5px;
+    /* background-color: green; */
   }
   .imagenLogo{
     /* width: 960px !important; */
@@ -1731,7 +1510,7 @@ li img {
   .video-background{
     max-height: 780px;
     max-width: 505px !important;
-
+    /* background-color: green !important; */
   }
 
 
@@ -1933,7 +1712,7 @@ li img {
 
 
   .video-background {
-    /* background-color: gainsboro !important; */
+    /* background-color: rgb(255, 0, 0) !important; */
     width: 412.2px !important;
     margin: 0;
   }
@@ -2287,73 +2066,38 @@ body{
 
 .cvs{
   background-color: rgb(0, 0, 0);
-  max-width: 210px !important;
-  min-height: 35px !important;
-  border-radius: 10px;
-  font-size: 24px;
+  max-width: 180px !important;
+  min-height: 40px !important;
+  border-radius: 20px;
+  font-size: 17px;
   position: relative;
-  left: 655px;
-  top: 45px;
-  border: 3px solid rgb(0, 255, 60);
-  /* color: !important; */
-  margin-bottom: 40px;
+  top: 10px;
+  left: 35px;
+  border: 3px solid rgb(0, 123, 255);
+  background-color: rgb(0, 123, 255);
+  /* margin-bottom: 50px; */
 }
 .cvs2{
   color: rgb(255, 255, 255);
   text-align: center;
   position: relative;
-  left: 40px;
-  top: 3px;
+  left: 43px;
+  top: 9px;
 }
 
 
 
 
 
-.first{
-  /* background-color: red; */
-  text-align: right;
-  /* font-size: 20px; */
-  margin-bottom: 20px !important;
-  /* margin-right: -5px;
-  padding: 10px; */
-  color: black !important;
-  font-size: 20px !important;
-  position: relative;
-  top: 3px;
-  right: 5px;
-}
-.second1{
-  /* background-color: blueviolet; */
-  position: relative;
-  right: 170px ;
-  font-size: 20px;
-}
-.second2{
-  /* background-color: blueviolet; */
-  position: relative;
-  right: 82px ;
-  font-size: 20px;
-}
-.second3{
-  /* background-color: blueviolet; */
-  position: relative;
-  right: 94px ;
-  font-size: 20px;
-}
-.second4{
-  /* background-color: blueviolet; */
-  position: relative;
-  right: 155px ;
-  font-size: 20px;
-}
-.second5{
-  /* background-color: blueviolet; */
-  position: relative;
-  right: 132px ;
-  font-size: 20px;
-}
+
 .usa2{
   /* border: 2px solid  black; */
   width: 45px;
+  /* border: 2px solid green; */
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.aboutme3 strong {
+  position: relative;
+  bottom: 15px
 }
