@@ -566,7 +566,9 @@ right: 143px;
 }
 
 .habilidades {
-  margin-top: 40px;
+  margin-top: 50px;
+  /* background-color: rgb(75, 75, 75); */
+  height: 800px;
 }
 
 .habilidades h3 {
@@ -578,59 +580,38 @@ right: 143px;
 
 .categorias {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  background-color: black;
+  padding: 30px;
+  border-radius: 30px;
+  border: 3px solid white;
+  height: 200px;
+  /* width: 1200px !important; */
 }
 
 .categoria {
-  flex-basis: calc(34.33% - 90px);
-  /* margin-bottom: 40px; */
-  border: 2px solid black;
-  border-radius: 12px;
-  background-color: rgb(255, 255, 255);
-  /* margin: 0; */
+
+  color: rgb(245, 245, 245);
+  /* background-color: tan !important; */
 }
 
 .h4Title {
   /* background-color: red; */
-  font-size: 31px !important;
-  color: black !important;
+  /* font-size: 31px !important; */
+  color: rgb(0, 98, 255) !important;
   font-family: proxima-nova, sans-serif;
+  font-family: serif;
 }
 
-.categoria ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-.categoria li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-}
 
-.categoria li:hover {
-  transform: scale(1.1);
-}
 
-.categoria li img {
-  width: 80px;
-  height: 80px;
-  /* border-radius: 50%; */
-  margin-bottom: 10px;
-  /* object-fit: cover; */
-}
+
+
 
 .categoria li span {
-  color: #333;
+  /* color: #c62020; */
   font-size: 18px;
   text-align: center;
 }
@@ -652,6 +633,7 @@ right: 143px;
 
 .frontend {
   background-color: #f2f2f2;
+  
 }
 
 .backend {
@@ -955,7 +937,7 @@ li img {
   }
 
   .categoria {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
   }
 
   /* Ajustar tamaño de los logos de habilidades */
@@ -1041,10 +1023,12 @@ li img {
     /* background-color: blue !important; */
     /* width: 380px; */
     /* padding: 30px 0; */
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 35px !important;
     font-weight: 100;
-    text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
+    /* text-shadow: 4px 4px 3.5px rgb(187, 187, 187); */
+    text-align: left;
+    background-color: red;
   }
   .css2{
     /* background-color: red !important; */
@@ -1083,20 +1067,20 @@ li img {
   }
 
   /* Ajustar tamaño de los logos de habilidades */
-  .categorias li img {
+  /* .categorias li img {
     max-width: 50%;
-  }
+  } */
  .categorias{
   /* background-color: rebeccapurple; */
-  width: 1300px;
+  width: 1200px;
   position: relative;
-  left: 80px;
-  top: 25px;
+  left: 120px;
+  top: 310px;
   /* margin: 10px 0 !important; */
   
  }
  .catdos{
-  max-width: 350px !important;
+  /* max-width: 350px !important; */
   /* padding: -100px; */
   /* background-color: red; */
  }
@@ -1536,7 +1520,7 @@ li img {
   }
 
   .categorias {
-    background-color: #000;
+    /* background-color: #f60000 !important; */
     /* border: 3px solid white; */
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
@@ -1553,7 +1537,7 @@ li img {
     letter-spacing: 1px;
     font-size: 45px !important;
     font-weight: 100;
-    text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
+    /* text-shadow: 4px 4px 3.5px rgb(187, 187, 187); */
   }
 
   body {
@@ -1570,12 +1554,12 @@ li img {
 
   .catdos {
     background-color: rgb(255, 255, 255) !important;
-    margin-bottom: 120px !important;
+    /* margin-bottom: 120px !important; */
     /* display: inline-block; */
+
   }
   .front{
     height: 570px;
-    
   }
   .back{
     height: 570px;
@@ -1839,10 +1823,80 @@ body{
 
 
 
+.categoria h4 {
+  /* background-color: rgb(138, 138, 138); */
+  text-align: start;
+  color: rgb(0, 123, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-weight: 100;
+  position: relative;
+  left: 50px;
+  width: 120px;
+  font-size: 24px;
+  /* font-size: 25px; */
+  /* top: 20px; */
+}
+.edit2{
+  /* background-color: green; */
+  position: relative;
+  right: 45px
+}
+.categoria li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* margin: 10px; */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  width: max-content;
+  position: relative;
+  left: 130px;
+  font-size: 17px;
+  /* background-color: green; */
+}
+
+.categoria li:hover {
+  transform: scale(1.1);
+}
 
 
+.services{
+  /* background-color: green; */
+  text-align: center;
+  position: relative;
+  top: 260px !important
+}
 
+.services h5{
+  max-width: 180px !important;
+  border-radius: 7px;
+  /* font-size: 20px !important; */
+  position: relative;
+  /* width: 300px !important; */
+  left: 655px;
+  border: 3px solid rgb(0, 123, 255);
+  background-color: rgb(0, 123, 255);
+  /* padding: 5px; */
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: white; 
+}
+.services h3{
+  font-size: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 5px;
+  position: relative;
+}
+.services p {
+  /* background-color: red; */
+  width: 800px;
+  left: 350px;
+  position: relative;
+  color: rgb(168, 168, 168) !important;
+  font-size: 18px
 
+}
 
 
 body{
@@ -1858,7 +1912,13 @@ body{
 
 }
 .catdos{
-  background-color: #fff !important;
+  /* background-color: #fff !im portant; */
+  /* background-color: rgb(0, 0, 0) !important; */
+  position: relative;
+  bottom: 47px;
+  left: 30px;
+  /* height: 200px !important; */
+  /* text-align: left !important; */
 }
 
 
@@ -1883,6 +1943,8 @@ body{
 }
 .h4Title{
   user-select: none !important;
+  text-align: left;
+
 }
 
 
