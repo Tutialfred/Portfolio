@@ -1177,7 +1177,7 @@ li img {
   }
 
   .mains {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(2, 1, 1);
     width: 409px;
   }
 
@@ -1474,12 +1474,49 @@ li img {
 }
 
 
+.projectss {
+  height: 890px !important;
+  position: relative;
+  top: -130px !important;
+  /* background-color: red; */
+}
 
 
+.project22 {
+  color: white;
+  font-size: 60px ;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  left: 50px !important;
+  width: max-content;
+  /* background-color: green; */
+  bottom: 100px !important;
+}
 
+.project23 {
+  color: white;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  left: 100px !important;
+  /* background-color: rgb(8, 231, 105) !; */
+  width: max-content;
+  bottom: 110px !important;
+  border-radius: 5px;
+  padding: 4px 20px;
+  font-size: 30px;
+  user-select: none;
+}
 
-
-
+.testimony__review{
+  /* background-color: red; */
+  width: 370px !important;
+  position: relative;
+  left: -45px;
+  font-size: 17px;
+}
 
 
 
