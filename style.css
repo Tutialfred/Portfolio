@@ -1414,11 +1414,11 @@ li img {
   }
 
   .services p {
-    width: 405px;
-    left: 1px;
+    width: 410px;
+    left: .1px;
     position: relative;
     /* color: rgb(162, 39, 39) ; */
-    font-size: 16px;
+    font-size: 17px;
     /* background-color: #0bb0c9; */
   }
 
