@@ -1270,12 +1270,12 @@ li img {
     /* background-color: goldenrod; */
     font-size: 14px !important;
     position: relative;
-    left: 18px;
+    left: 10px;
     top: -150px;
     max-width: 390px;
     color: rgb(255, 255, 255) !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+    font-family: sans-serif;
+    /* font-weight: 500; */
   }
   .animal-lins{
     /* background-color: rgb(255, 255, 255); */
@@ -1283,7 +1283,7 @@ li img {
     position: relative;
     width: 400px;
     top: -110px !important;
-    right: -13px;
+    right: -10px;
     }
     
     .animal-lins a {
