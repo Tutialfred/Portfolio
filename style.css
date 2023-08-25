@@ -1571,7 +1571,10 @@ li img {
   width: 290px !important;
 }
 
-
+.testimony__texts{
+  /* background-color: red; */
+  width: 340px;
+}
 
 
 
