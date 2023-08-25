@@ -1693,19 +1693,38 @@ li img {
     width: 420px;
     position: relative;
     /* right: 9.7px; */
-    bottom: 360px;
+    bottom: 380px;
   }
   .image {
   
     position: relative;
-    margin-bottom: 50px !important;
+    margin-bottom: 60px !important;
     /* border: 4px solid green; */
     max-width: 350px !important;
     left: 1px;
     width: 400px !important;
     height: 450px !important;
   }
+  .parrafo {
+    color: rgb(168, 168, 168) !important;
+    font-size: 17px !important;
+    /* letter-spaing: 0.7px; */
+    margin: 0 15px;
+    text-align: left;
+    /* background-color: blue; */
+    position: relative;
+    left: -10px;
+    width: 405px;
+  }
 
+
+
+
+
+
+
+
+  
   .h2Title {
     background-color: transparent;
     font-size: 48px !important;
@@ -1714,14 +1733,7 @@ li img {
     top: 0px;
   }
 
-  .parrafo {
-    color: rgb(0, 0, 0) !important;
-    font-size: 19px !important;
-    letter-spacing: 0.7px;
-    margin: 0 15px;
-    text-align: center;
-
-  }
+ 
   
 
 
