@@ -1260,6 +1260,29 @@ li img {
     /* border: 3px solid rgb(17, 28, 17); */
   }
 
+  .helloT{
+    color: rgb(0, 123, 255);
+    position: relative;
+    left: 170px;
+    bottom: 80px;
+    user-select: none;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: red; */
+    width: 200px;
+  } 
+   .name {
+    background-color: rgb(255, 255, 255) !important;
+    /* border: 3px solid black !important; */
+    /* color: green !important; */
+    font-size: 28px !important;
+    color: #000000;
+    position: relative;
+    top: -75px;
+    left: 3px !important;
+    max-width: 390px;
+  }
+  
   .h2Title {
     background-color: beige;
     position: relative;
@@ -1320,17 +1343,7 @@ li img {
   /* ! VIDEO PROFILE BACKGROUND */
 
 
-  .name {
-    /* background-color: rgb(255, 255, 255) !important; */
-    /* border: 3px solid black !important; */
-    /* color: green !important; */
-    font-size: 28px !important;
-    color: #000000;
-    position: relative;
-    top: -75px;
-    left: 3px !important;
-    max-width: 390px;
-  }
+
 
 
 /* ! PERFILES                         */
