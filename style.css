@@ -690,6 +690,11 @@
   margin: 0.7rem;
   color: black;
   user-select: none;
+}.subtitle {
+  color: rgb(0, 98, 255) !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
 }
 
 .project-card h5 {
@@ -1125,6 +1130,16 @@ li img {
 /*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
+  .testimony__body{
+    /* background-color: red !important; */
+    width: 250px;
+  }
+
+
+
+
+
+
   a {
     text-decoration: none !important;
   }
@@ -1143,6 +1158,26 @@ li img {
     align-items: center;
     /* max-width: 700px !important; */
   }
+
+
+
+
+
+
+  .htht{
+    background-color: red !important;
+    color: red !important;
+  }
+  .testimony__arrow{
+    background-color: blue !important;
+    color: blue !important;
+  }
+
+ 
+
+
+
+
 
   .tuti2 {
     background-color: green !important;
@@ -1177,7 +1212,7 @@ li img {
   }
 
   .mains {
-    background-color: rgb(2, 1, 1);
+    /* background-color: rgb(223, 41, 41); */
     width: 409px;
   }
 
@@ -1515,7 +1550,25 @@ li img {
   width: 370px !important;
   position: relative;
   left: -45px;
-  font-size: 17px;
+  font-size: 16px;
+}
+.subtitle{
+  /* color: red !important; */
+  left: -24px !important;
+  position: relative;
+}
+.h55{
+  /* background-color: red; */
+  position: relative;
+  top: 280px;
+  right: 50px
+}
+.hovers{
+  border: 2px solid white !important;
+  position: relative;
+  top: -175px;
+  left: -45px;
+  width: 290px !important;
 }
 
 
@@ -1783,6 +1836,7 @@ li img {
   body {
     background-color: #000000 !important;
   }
+  
 }
 
 .categoria h4 {
@@ -1985,9 +2039,7 @@ body {
     width: 100%;
   }
 
-  .htht {
-    background-color: red !important;
-  }
+
 
   .testimony__course {
     margin-top: 15px;
@@ -2000,12 +2052,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.subtitle {
-  color: rgb(0, 98, 255) !important;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 26px;
-}
+
 
 .hovers {
   transition: transform 0.5s ease-in-out;
