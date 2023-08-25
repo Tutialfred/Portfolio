@@ -593,7 +593,14 @@ right: 143px;
 .categoria {
 
   color: rgb(245, 245, 245);
+  font-family: monospace
   /* background-color: tan !important; */
+}
+.catdos li{
+  /* background-color: red; */
+  font-size: 17px !important;
+  margin-top: 16px;
+
 }
 
 .h4Title {
@@ -1912,7 +1919,7 @@ body{
 
 }
 .catdos{
-  /* background-color: #fff !im portant; */
+  /* background-color: #fff !important; */
   /* background-color: rgb(0, 0, 0) !important; */
   position: relative;
   bottom: 47px;
@@ -2139,8 +2146,12 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 26px;
 }
+.hovers{
+  transition: transform .5s ease-in-out;
+
+}
 .hovers:hover{
-  transform: scale(1.03);
+  transform: scale(1.05);
   cursor: pointer;
   /* box-shadow: 9px -9px 9px rgb(255, 255, 255); */
   transition: all .9s ease; /* Transición de 0.3 segundos con función de suavizado */
@@ -2183,4 +2194,32 @@ body{
 .aboutme3 strong {
   position: relative;
   bottom: 15px
+}
+
+.father{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  top: 20px;
+  position: relative;
+}
+.father h4{
+  /* background-color: green; */
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 123, 255);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.father li{
+  transition: transform 0.4s ease-in-out;
+
+}
+.father li:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+  /* text-decoration: */
 }
