@@ -1193,21 +1193,6 @@ li img {
     /* left: -10px */
   };
 
-  .web3Profile {
-    background-color: rgb(148, 255, 8) !important;
-    border: 4px solid blue;
-    text-align: center;
-    left: 40px;
-    max-width: 350px;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: relative;
-    height: 350vh;
-    /* color: yellow; */
-    /* font-size: 150px !important; */
-
-
-  }
   .ound{
     background-color: transparent !important;
     /* background-color: red; */
@@ -1281,7 +1266,16 @@ li img {
     left: 154px !important;
     max-width: 390px;
   }
-  
+  .developer {
+    background-color: goldenrod;
+    font-size: 15px !important;
+    /* position: relative; */
+    left: 170px;
+    top: -105px;
+    width: 600px;
+  }
+
+
   .h2Title {
     background-color: beige;
     position: relative;
@@ -1504,12 +1498,7 @@ li img {
     
   }
 
-  .developer {
-    /* background-color: goldenrod; */
-    font-size: 19px !important;
-    position: relative;
-    top: -35px;
-  }
+
   .video-background{
     max-height: 780px;
     max-width: 505px !important;
