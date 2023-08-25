@@ -1560,14 +1560,14 @@ li img {
 .h55{
   /* background-color: red; */
   position: relative;
-  top: 280px;
+  top: 250px;
   right: 50px
 }
 .hovers{
   border: 2px solid white !important;
   position: relative;
   top: -175px;
-  left: -45px;
+  left: -30px;
   width: 290px !important;
 }
 
@@ -1628,10 +1628,7 @@ li img {
     user-select: none;
   }
 
-  .video-background {
-    max-height: 780px;
-    max-width: 505px !important;
-  }
+
 
   /* ! APARTADO DE HABILIDADES  */
 
@@ -1759,8 +1756,9 @@ li img {
   /* ! SOBRE MI */
 
   .video-background {
-    width: 412.2px !important;
-    margin: 0;
+    width: 410.2px !important;
+    /* margin: 0; */
+    /* background-color: red !important; */
   }
 
   .perfil {
