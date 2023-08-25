@@ -1429,6 +1429,52 @@ li img {
 
 
 
+  .categoria h4{
+    color: rgb(0, 123, 255) !important;
+    font-size: 17px !important;
+  }
+  .categoria li{
+    color: rgb(255, 255, 255) !important;
+    font-size: 14px !important;
+  }
+
+
+
+.fronts{
+  position: relative;
+  left: -65px !important;
+  /* background-color: gold; */
+}
+.fronts li{
+  /* background-color: red; */
+  left: 45px !important;
+}
+
+.backs{
+  position: relative;
+  left: -40px !important;
+}
+.backs li{
+  /* background-color: red; */
+  left: 40px !important;
+}
+
+.toolss{
+  position: relative;
+  left: 245px !important;
+  top: -285px;
+}
+.toolss li{
+  /* background-color: red; */
+  left: 82px !important;
+}
+.special{
+  /* background-color: red; */
+  width: 100px !important;
+}
+
+
+
 
 
 
@@ -1496,18 +1542,7 @@ li img {
 
   /* ! APARTADO DE HABILIDADES  */
 
-  .categorias {
-    background-color: rgb(121, 10, 233);
  
-    max-width: 200px;
-  }
-
-  .categorias {
-  
-    position: relative;
-    left: 42px;
-    margin: 0;
-  }
 
   .h4Title {
     padding: 30px 0;
@@ -1525,10 +1560,7 @@ li img {
     height: 500px;
   }
 
-  .catdos {
-    background-color: rgb(255, 255, 255) !important;
-  }
-
+  
   .front {
     height: 570px;
   }
