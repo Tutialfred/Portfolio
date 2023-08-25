@@ -1267,7 +1267,7 @@ li img {
     max-width: 390px;
   }
   .developer {
-    /* background-color: goldenrod; */
+    background-color: goldenrod;
     font-size: 13px !important;
     position: relative;
     left: 18px;
