@@ -1416,10 +1416,10 @@ li img {
   }
 
   .aboutme4{
-    margin-top: 22px;   
+    margin-top: 20px;   
     left: 25px;
     position: relative;
-    /* background-color: rgb(74, 0, 210); */
+    background-color: rgb(74, 0, 210);
     text-align: start;
   }
   .aboutme4 p {
