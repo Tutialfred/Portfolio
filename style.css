@@ -980,7 +980,7 @@ li img {
   }
   .aboutme{
     /* background-color: rgb(195, 6, 6); */
-    color: rgb(49, 49, 49) !important;
+    /* color: rgb(251, 17, 17) !important; */
     width: 700px;
   }
   .aboutme2{
@@ -1249,7 +1249,7 @@ li img {
     color: rgb(0, 123, 255);
     position: relative;
     left: 10px;
-    bottom: 140px;
+    bottom: 200px;
     user-select: none;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1262,7 +1262,7 @@ li img {
     font-size: 28px !important;
     color: #ffffff;
     position: relative;
-    bottom: 110px;
+    bottom: 170px;
     left: -5px !important;
     max-width: 390px;
   }
@@ -1271,9 +1271,9 @@ li img {
     font-size: 13px !important;
     position: relative;
     left: 18px;
-    top: -105px;
+    top: -150px;
     max-width: 375px;
-    color: rgb(49, 49, 49) !important;
+    color: rgb(168, 168, 168) !important;
   }
 
 
