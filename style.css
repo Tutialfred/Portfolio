@@ -558,6 +558,27 @@ right: 143px;
   margin-bottom: 20px;
 }
 
+.cvs{
+  background-color: rgb(0, 0, 0);
+  max-width: 180px !important;
+  min-height: 40px !important;
+  border-radius: 20px;
+  font-size: 17px;
+  position: relative;
+  top: 10px;
+  left: 35px;
+  border: 3px solid rgb(0, 123, 255);
+  background-color: rgb(0, 123, 255);
+  /* margin-bottom: 50px; */
+}
+.cvs2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  left: 43px;
+  top: 9px;
+}
+
 .informacion p {
   color: #ffffff;
   font-size: 18px;
@@ -1425,12 +1446,32 @@ li img {
   .aboutme4 p {
     color: rgb(168, 168, 168) !important;
     font-size: 17px
-
   }
 
 
 
+  .cvs{
+    background-color: rgb(0, 0, 0);
+    max-width: 180px !important;
+    min-height: 40px !important;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 110px;
+    border: 3px solid rgb(0, 123, 255);
+    background-color: rgb(0, 123, 255);
+    /* margin-bottom: 50px; */
+  }
 
+  .cvs a{
+    /* background-color: yellow; */
+    color: #ffffff;
+    position: relative;
+    left: 1px !important;
+    top: 8px;
+    font-size: 21px !important; 
+  }
 
 
 
@@ -2175,27 +2216,6 @@ body{
   transition: all .9s ease; /* Transición de 0.3 segundos con función de suavizado */
 }
 
-
-.cvs{
-  background-color: rgb(0, 0, 0);
-  max-width: 180px !important;
-  min-height: 40px !important;
-  border-radius: 20px;
-  font-size: 17px;
-  position: relative;
-  top: 10px;
-  left: 35px;
-  border: 3px solid rgb(0, 123, 255);
-  background-color: rgb(0, 123, 255);
-  /* margin-bottom: 50px; */
-}
-.cvs2{
-  color: rgb(255, 255, 255);
-  text-align: center;
-  position: relative;
-  left: 43px;
-  top: 9px;
-}
 
 
 
