@@ -1248,8 +1248,8 @@ li img {
   .helloT{
     color: rgb(0, 123, 255);
     position: relative;
-    left: 170px;
-    bottom: 190px;
+    left: 10px;
+    bottom: 140px;
     user-select: none;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1262,17 +1262,17 @@ li img {
     font-size: 28px !important;
     color: #ffffff;
     position: relative;
-    bottom: 165px;
-    left: 154px !important;
+    bottom: 110px;
+    left: -5px !important;
     max-width: 390px;
   }
   .developer {
     background-color: goldenrod;
-    font-size: 15px !important;
-    /* position: relative; */
-    left: 170px;
+    font-size: 20px !important;
+    position: relative;
+    left: 22px;
     top: -105px;
-    width: 600px;
+    max-width: 370px;
   }
 
 
