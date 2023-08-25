@@ -1527,6 +1527,7 @@ li img {
   width: max-content;
   /* background-color: green; */
   bottom: 100px !important;
+  /* margin: 0 !important; */
 }
 
 .project23 {
@@ -2102,3 +2103,4 @@ body {
   transform: scale(1.15);
   cursor: pointer;
 }
+
