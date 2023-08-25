@@ -1267,12 +1267,13 @@ li img {
     max-width: 390px;
   }
   .developer {
-    background-color: goldenrod;
-    font-size: 20px !important;
+    /* background-color: goldenrod; */
+    font-size: 13px !important;
     position: relative;
-    left: 22px;
+    left: 18px;
     top: -105px;
-    max-width: 370px;
+    max-width: 375px;
+    color: rgb(49, 49, 49) !important;
   }
 
 
