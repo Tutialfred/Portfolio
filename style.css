@@ -1248,7 +1248,7 @@ li img {
   .helloT{
     color: rgb(0, 123, 255);
     position: relative;
-    left: 10px;
+    left: -10px;
     bottom: 200px;
     user-select: none;
     font-size: 30px;
@@ -1263,14 +1263,14 @@ li img {
     color: #ffffff;
     position: relative;
     bottom: 170px;
-    left: -5px !important;
+    left: -24px !important;
     max-width: 390px;
   }
   .developer {
     /* background-color: goldenrod; */
     font-size: 15px !important;
     position: relative;
-    left: 10px;
+    left: 7px;
     top: -150px;
     max-width: 390px;
     color: rgb(255, 255, 255) !important;
