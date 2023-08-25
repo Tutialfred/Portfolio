@@ -1394,17 +1394,39 @@ li img {
 
 
 
-  /* ! VIDEO PROFILE BACKGROUND */
+  .g22{
+    display: flex;
+  }
+
+  .aboutme2{
+    margin-top: 20px;
+    /* background-color: rgb(93, 2, 2); */
+    width: 160px;
+    position: relative;
+    left: 20px;
+    text-align: start;
+  }
 
 
+  .aboutme2 p {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    font-size: 17px;
+    font-weight: 800;
+    /* background-color: red; */
+  }
 
+  .aboutme4{
+    margin-top: 22px;
+    left: 51px;
+    position: relative;
+    /* background-color: rgb(74, 0, 210); */
+    text-align: start;
+  }
+  .aboutme4 p {
+    color: rgb(168, 168, 168) !important;
+    font-size: 17px
 
-
-/* ! PERFILES                         */
-
-
-
-
+  }
 
 
 
