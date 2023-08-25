@@ -1267,14 +1267,14 @@ li img {
     max-width: 390px;
   }
   .developer {
-    background-color: goldenrod;
-    font-size: 13px !important;
+    /* background-color: goldenrod; */
+    font-size: 12px !important;
     position: relative;
     left: 18px;
     top: -150px;
     max-width: 390px;
     color: rgb(255, 255, 255) !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 
