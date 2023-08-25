@@ -1560,13 +1560,13 @@ li img {
 .h55{
   /* background-color: red; */
   position: relative;
-  top: 250px;
+  top: 260px;
   right: 50px
 }
 .hovers{
   border: 2px solid white !important;
   position: relative;
-  top: -175px;
+  top: -180px;
   left: -30px;
   width: 290px !important;
 }
