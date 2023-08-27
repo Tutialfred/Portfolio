@@ -321,10 +321,12 @@
 .mindset {
   /* background-color: red; */
   position: relative;
-  left: 800px;
-  bottom: 50px;
-  width: 600px;
+  left: 910px;
+  bottom: -10px;
+  width: 540px;
   user-select: none;
+  /* border: 3px solid red; */
+  transform: rotate(12deg);
 }
 
 .video-background video {
