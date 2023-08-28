@@ -1955,12 +1955,13 @@ body {
 }
 
 .testimony__img {
-  width: 540px;
-  height: 300px;
+  width: 640px;
+  height: 310px;
   border-radius: 10px;
   object-fit: cover;
   object-position: 50% 30%;
-  border: 3px solid rgb(255, 255, 255);
+  /* border: 3px solid rgb(255, 0, 0); */
+  outline: 3px solid rgb(255, 255, 255);
 }
 
 .testimony__texts {
