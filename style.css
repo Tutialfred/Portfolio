@@ -321,9 +321,9 @@
 .mindset {
   /* background-color: red; */
   position: relative;
-  left: 910px;
+  left: 920px;
   bottom: -10px;
-  width: 540px;
+  width: 520px;
   user-select: none;
   /* border: 3px solid red; */
   transform: rotate(12deg);
