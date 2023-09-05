@@ -3,6 +3,17 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 @import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
 
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap');
 /* Estilos para pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
   .name {
@@ -321,7 +332,7 @@
 .mindset {
   /* background-color: red; */
   position: relative;
-  left: 920px;
+  left: 940px;
   bottom: -10px;
   width: 520px;
   user-select: none;
@@ -386,13 +397,17 @@
   line-height: 1.7;
   color: #ffffff;
   margin-top: 30px;
-  width: 740px;
+  width: 780px;
   text-align: left;
   font-weight: lighter;
   user-select: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
   right: 122px;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Niramit', sans-serif;
+/* background-color: green; */
+
 }
 
 @keyframes moves {
@@ -547,8 +562,8 @@
 }
 
 .categoria {
-  color: rgb(245, 245, 245);
-  font-family: monospace;
+  color: rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
   /* background-color: tan !important; */
 }
 
@@ -602,11 +617,10 @@
 .mains {
   background-color: #000000;
 }
-
 .parrafo {
   /* background-color: brown; */
-  /* font-family: "Open Sans", Arial, sans-serif; */
-  font-size: 10px !important;
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px !important;
   line-height: 1.5;
   letter-spacing: 0.2px;
   color: #176efa;
@@ -796,6 +810,8 @@ ul {
   position: relative;
   color: rgb(168, 168, 168) ;
   font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+
 }
 /* Establecer los estilos para cada elemento de la lista */
 li {
@@ -959,7 +975,7 @@ li img {
   }
 
   .parrafo {
-    font-size: 18.4px !important;
+    font-size: 21px !important;
     color: rgb(168, 168, 168) !important;
     position: relative;
     left: 5px !important;
@@ -988,6 +1004,7 @@ li img {
 
   .aboutme4 {
     margin-top: 25px;
+    font-family: 'Barlow', sans-serif;
 
     /* background-color: green; */
   }
@@ -1471,7 +1488,7 @@ li img {
     font-size: 17px !important;
   }
   .categoria li{
-    color: rgb(255, 255, 255) !important;
+    color: rgba(255, 255, 255, 0.826) !important;
     font-size: 14px !important;
   }
 
@@ -1549,7 +1566,7 @@ li img {
 }
 
 .testimony__review{
-  /* background-color: red; */
+  /* background-color: red !important; */
   width: 370px !important;
   position: relative;
   left: -45px;
@@ -2107,3 +2124,6 @@ body {
   cursor: pointer;
 }
 
+.testimony__review{
+  font-family: 'Barlow', sans-serif;
+}
