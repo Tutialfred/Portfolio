@@ -2127,3 +2127,191 @@ body {
 .testimony__review{
   font-family: 'Barlow', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+/* ! FOOTER  */
+.footer1, .footer2{
+  background-color: rgb(234, 232, 232);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  height: 400px;
+}
+
+.footer1{
+  border-top: blue 3px solid;
+  margin-top: 200px;
+  margin-bottom: 0px;
+}
+
+.footer2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(193, 190, 190);
+  height: 300px;
+  color: rgb(0, 0, 0);
+  /* border-top: 1px solid black; */
+  border-bottom: 7px solid rgb(0, 0, 0);
+  
+}
+
+.formularioU{
+  /* background-color: red; */
+  position: relative;
+  right: 100px !important;
+}
+.formularioU h1{
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  right: -20px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.formularioU input, textarea{
+  /* background-color: red; */
+  border-radius: 10px;
+  padding: 10px;
+}
+#enviando{
+  background-color: rgb(23, 208, 23);
+  position: relative;
+  left: 100px;
+  width: 120px;
+  border: 3px solid rgb(0, 0, 0);
+}
+#enviando:hover{
+  cursor: pointer;
+  
+  transition: 3s;
+}
+
+
+
+/* CHAT GPT */
+form {
+  width: 300px; /* Ancho del formulario, ajusta según tus necesidades */
+}
+
+div {
+  margin-bottom: 20px; /* Espacio entre elementos del formulario */
+}
+
+label {
+  display: block; /* Hace que las etiquetas ocupen todo el ancho disponible */
+}
+
+input, textarea {
+  width: 100%; /* Hace que los campos ocupen todo el ancho disponible */
+}
+
+
+/*! EXPLORAR  */
+
+
+
+
+
+.explorer{
+  /* background-color: red; */
+  position: relative;
+  left: 210px;
+  margin-top: 20px;
+}
+.explorerson{
+  /* background-color: blue; */
+  position: relative;
+  margin-top: 30px; 
+  color: rgb(107, 107, 107);
+}
+.explorerson h4 {
+  margin-bottom: 30px; /* Agrega espacio vertical entre los elementos <h4> */
+}
+
+
+/* ! working */
+
+
+
+.working{
+  /* background-color: red; */
+  position: relative;
+  left: 70px !important;
+  margin-top: 20px;
+}
+.workingson{
+  /* background-color: blue; */
+  position: relative;
+  margin-top: 30px; 
+  color: rgb(107, 107, 107);
+}
+.workingson h4{
+  margin-bottom: 30px; /* Agrega espacio vertical entre los elementos <h4> */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! SOCIAL MEDIAS */
+.rre{
+  /* background-color: red; */
+  position: relative;
+  left: 9px;
+
+}
+
+.rree{
+  /* background-color: red; */
+  position: relative;
+  left: 8px;
+}
+.wps2{
+  /* background-color: transparent; */
+  border: 2.3px solid black !important; 
+  border-radius: 6px !important;
+}
+.contacts{
+  /* background-color: green; */
+  position: relative;  
+}
+.ttr{
+  /* background-color: blue; */
+  position: relative;
+  right: 10px;
+  width: 400px;
+  /* top: 0px; */
+}
+.contacts h1{
+  position: relative;
+  font-size: 35px;
+  left: 100px;
+  margin-top: 50px;
+  /* background-color: rebeccapurple; */
+  width: min-content;
+}
+
+.reservado{
+  /* background-color: red; */
+  position: relative;
+  margin-top: 150px !important;
+  left: 20px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
