@@ -169,9 +169,9 @@
 }
 
 .animal-lins a.wps:hover {
+  background-color: #25d366;
   transform: translateY(-10px);
   transition: 0.7s all;
-  background-color: #25d366;
   border: 2px solid #25d366;
 }
 
@@ -206,8 +206,8 @@
 .animal-lins a.maail:hover {
   transform: translateY(-10px);
   transition: 0.7s all;
-  background-color: rgb(255, 115, 0);
-  border: 2px solid rgb(255, 115, 0);
+  background-color: rgb(238, 48, 0);
+  border: 2px solid rgb(238, 48, 0);
 }
 
 /* ? LEMON */
@@ -2138,11 +2138,11 @@ body {
 
 /* ! FOOTER  */
 .footer1, .footer2{
-  background-color: rgb(234, 232, 232);
+  background-color: rgb(240, 240, 240);
   display: flex;
   justify-content: space-between;
   color: rgb(0, 0, 0);
-  height: 400px;
+  height: 370px;
 }
 
 .footer1{
@@ -2154,11 +2154,11 @@ body {
 .footer2{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: rgb(193, 190, 190);
-  height: 300px;
+  background-color: rgb(219, 219, 219);
+  height: 340px;
   color: rgb(0, 0, 0);
-  /* border-top: 1px solid black; */
-  border-bottom: 7px solid rgb(0, 0, 0);
+  border-top: 1px solid black;
+  border-bottom: 10px solid rgb(0, 0, 0);
   
 }
 
@@ -2197,21 +2197,34 @@ body {
 /* CHAT GPT */
 form {
   width: 300px; /* Ancho del formulario, ajusta según tus necesidades */
+  /* background-color: green; */
 }
 
 div {
   margin-bottom: 20px; /* Espacio entre elementos del formulario */
+  /* background-color: green; */
 }
 
 label {
   display: block; /* Hace que las etiquetas ocupen todo el ancho disponible */
+   /* background-color: green; */
 }
 
 input, textarea {
-  width: 100%; /* Hace que los campos ocupen todo el ancho disponible */
+  width: 90%; /* Hace que los campos ocupen todo el ancho disponible */
+   /* background-color: green; */
+}
+input{
+  background-color: rgb(251, 251, 251);
 }
 
-
+input:focus {
+  border-color: rgb(45, 45, 244); /* Cambia el color del borde al azul cuando el input está enfocado */
+  outline: none; /* Quita el contorno predeterminado en algunos navegadores */
+  background-color: black;
+  color: white;
+  transition: .8s;
+}
 /*! EXPLORAR  */
 
 
@@ -2228,10 +2241,12 @@ input, textarea {
   /* background-color: blue; */
   position: relative;
   margin-top: 30px; 
+  display: grid;
   color: rgb(107, 107, 107);
 }
-.explorerson h4 {
+.explorerson a {
   margin-bottom: 30px; /* Agrega espacio vertical entre los elementos <h4> */
+  color: rgb(76, 76, 76);
 }
 
 
@@ -2259,7 +2274,9 @@ input, textarea {
 
 
 
-
+a {
+  scroll-behavior: smooth !important;
+}
 
 
 
@@ -2282,8 +2299,27 @@ input, textarea {
   position: relative;
   left: 8px;
 }
+.a1{
+background-color: #25d366;
+}
+.a2{
+  background-color: #0a66c2;
+}
+.a3{
+  background-color: #272727;
+}
+.a4{
+  background-color: #0bb0c9;
+}
+.a5{
+  background-color: #ffd54f;
+}
+.a6{
+  background-color: rgb(238, 48, 0)
+}
 .wps2{
-  /* background-color: transparent; */
+  
+  margin-bottom: 12px;
   border: 2.3px solid black !important; 
   border-radius: 6px !important;
 }
@@ -2293,10 +2329,12 @@ input, textarea {
 }
 .ttr{
   /* background-color: blue; */
-  position: relative;
-  right: 10px;
-  width: 400px;
-  /* top: 0px; */
+  display: grid;
+  /* position: relative; */
+  right: 60px;
+  width: 80px;
+  top: 12px;
+  /* margin-top: ; */
 }
 .contacts h1{
   position: relative;
