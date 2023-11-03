@@ -2138,7 +2138,7 @@ body {
 
 /* ! FOOTER  */
 .footer1, .footer2{
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   color: rgb(0, 0, 0);
@@ -2154,18 +2154,21 @@ body {
 .footer2{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: rgb(219, 219, 219);
-  height: 340px;
+  background-color: rgb(228, 228, 228);
+  height: 25px;
   color: rgb(0, 0, 0);
   border-top: 1px solid black;
   border-bottom: 10px solid rgb(0, 0, 0);
-  
 }
 
+
 .formularioU{
-  /* background-color: red; */
+  background-color: rgb(78, 219, 30);
+  border-radius: 20px;
   position: relative;
   right: 100px !important;
+  top: 10px;
+  outline: 3px solid black; 
 }
 .formularioU h1{
   font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -2180,11 +2183,12 @@ body {
   padding: 10px;
 }
 #enviando{
-  background-color: rgb(23, 208, 23);
+  background-color: rgb(0, 0, 0);
   position: relative;
   left: 100px;
   width: 120px;
-  border: 3px solid rgb(0, 0, 0);
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
 }
 #enviando:hover{
   cursor: pointer;
@@ -2234,19 +2238,27 @@ input:focus {
 .explorer{
   /* background-color: red; */
   position: relative;
-  left: 210px;
-  margin-top: 20px;
+  left: 370px;
+  margin-top: 45px;
 }
 .explorerson{
   /* background-color: blue; */
   position: relative;
   margin-top: 30px; 
   display: grid;
-  color: rgb(107, 107, 107);
+  color: rgb(211, 56, 56);
+  font-family: 'Barlow', sans-serif;
 }
 .explorerson a {
   margin-bottom: 30px; /* Agrega espacio vertical entre los elementos <h4> */
-  color: rgb(76, 76, 76);
+  color: rgb(59, 59, 59); 
+  /* font-family: monospace; */
+  /* font-size: 15px; */
+}
+.explorerson p:hover {
+  color: rgb(0, 60, 255);
+  text-decoration: underline;
+ 
 }
 
 
@@ -2257,14 +2269,22 @@ input:focus {
 .working{
   /* background-color: red; */
   position: relative;
-  left: 70px !important;
-  margin-top: 20px;
+  left: -40px !important;
+  margin-top: 45px;
+}
+
+.working2{
+  /* background-color: red; */
+  position: relative;
+  right: 490px !important;
+  margin-top: 45px;
 }
 .workingson{
   /* background-color: blue; */
   position: relative;
   margin-top: 30px; 
-  color: rgb(107, 107, 107);
+  color: rgb(50, 50, 50);
+  font-family: 'Barlow', sans-serif;
 }
 .workingson h4{
   margin-bottom: 30px; /* Agrega espacio vertical entre los elementos <h4> */
@@ -2323,17 +2343,14 @@ background-color: #25d366;
   border: 2.3px solid black !important; 
   border-radius: 6px !important;
 }
-.contacts{
-  /* background-color: green; */
-  position: relative;  
-}
+
 .ttr{
   /* background-color: blue; */
   display: grid;
   /* position: relative; */
-  right: 60px;
+  right: 50px;
   width: 80px;
-  top: 12px;
+  top: -345px;
   /* margin-top: ; */
 }
 .contacts h1{
@@ -2348,8 +2365,15 @@ background-color: #25d366;
 .reservado{
   /* background-color: red; */
   position: relative;
-  margin-top: 150px !important;
-  left: 20px;
+  /* margin-top: 200px !important; */
+  left: 30px;
+  top: 5px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.fontt{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
