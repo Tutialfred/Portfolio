@@ -947,9 +947,7 @@ li img {
     flex-wrap: wrap;
   }
 
-  .categoria {
-    /* flex-basis: 50%; */
-  }
+ 
 
   /* Ajustar tamaño de los logos de habilidades */
   .categorias li img {
@@ -2377,4 +2375,13 @@ background-color: #25d366;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+.mindset{
+  /* background-color: red; */
+  /* border: 2px solid red; */
+  left: 1300px;
+}
 }
