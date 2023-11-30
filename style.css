@@ -2380,8 +2380,18 @@ background-color: #25d366;
 @media only screen and (min-width: 1750px) {
 
 .mindset{
-  /* background-color: red; */
-  /* border: 2px solid red; */
+ 
   left: 1300px;
+}
+.services{
+ 
+  left: 200px;
+}
+.services h3{
+  left: -180px;
+}
+.categorias{
+  /* background-color: red; */
+  left: 280px; 
 }
 }
