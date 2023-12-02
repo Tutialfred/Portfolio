@@ -2377,6 +2377,14 @@ background-color: #25d366;
   font-size: 20px;
 }
 
+
+
+
+/*!  PANTALLA GRANDE → 27 PULGADAS  */
+
+
+
+
 @media only screen and (min-width: 1750px) {
 
 .mindset{
@@ -2391,7 +2399,34 @@ background-color: #25d366;
   left: -180px;
 }
 .categorias{
-  /* background-color: red; */
   left: 280px; 
 }
+
+
+.project23{
+  left: 850px;
+}
+.project22{
+  left: 790px;
+}
+.categorias{
+  left: 330px;
+}
+#tech{
+  left: 650px;
+}
+.ssa{
+left: -190px !important;
+font-size: 60px !important;
+}
+.services p{
+  left: 350px;
+}
+
+
+
+
+
+
+
 }
