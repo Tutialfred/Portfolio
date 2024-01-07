@@ -1148,7 +1148,7 @@ li img {
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
   .testimony__body{
-    /* background-color: red !important; */
+    background-color: red !important;
     width: 250px;
   }
 
