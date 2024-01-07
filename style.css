@@ -1148,7 +1148,7 @@ li img {
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
   .testimony__body{
-    background-color: red !important;
+    /* background-color: red !important; */
     width: 250px;
   }
 
@@ -1855,8 +1855,73 @@ li img {
   body {
     background-color: #000000 !important;
   }
+  .footer1{
+    background-color: rgb(255, 255, 255) !important;
+    width: 445px;
+    position: relative;
+  }
+  .explorer{
+    /* background-color: red; */
+    /* width: 55px; */
+    width: 100px;
+    position: relative;
+    margin-left: -140px;
+    
+    
+  }
+  .working{
+    /* background-color: rgb(22, 255, 243); */
+    width: 150px;
+    margin-left: -100px;
+    position: relative !important;
+    left: 2 !important; 
+
+  }
+  .animal-lins{
+    /* background-color: red; */
+    top: -340px !important;
+    left: 1px;
+  }
+  .footer2{
+    background-color: rgb(255, 255, 255) !important;
+    width: 445px;
+    /* height: 100px !important; */
+    /* margin: 60px !important */
+    /* height: px !important */
+    margin-bottom: 0px !important
+  };
+  }
   
 }
+/* !ACA TERMINA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .categoria h4 {
   text-align: start;
